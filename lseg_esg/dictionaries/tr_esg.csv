@@ -1,0 +1,143 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+esgasrepdata,orgpermid,"numeric(20,0)",1,OrgPermID,1155367
+esgasrepdata,item,integer,2,Item,1155367
+esgasrepdata,fy,integer,3,FY,1155367
+esgasrepdata,valueid,"numeric(20,0)",4,ValueId,1155367
+esgasrepdata,scalecode,"numeric(11,0)",5,ScaleCode,1155367
+esgasrepdata,unitcode,"numeric(20,0)",6,UnitCode,1155367
+esgasrepdata,value_,double precision,7,Value_,1155367
+esgcode,type_,"numeric(11,0)",1,Type_,182
+esgcode,code,"numeric(11,0)",2,Code,182
+esgcode,desc_,character varying(100),3,Desc_,182
+esgdesc,type_,"numeric(11,0)",1,Type_,1588
+esgdesc,code,character varying(30),2,Code,1588
+esgdesc,desc_,character varying(150),3,Desc_,1588
+esgdniratings,orgpermid,"numeric(20,0)",1,OrgPermID,311628
+esgdniratings,item,integer,2,Item,311628
+esgdniratings,fy,integer,3,FY,311628
+esgdniratings,valuecalcdt,timestamp without time zone,4,ValueCalcDt,311628
+esgdniratings,value_,double precision,5,Value_,311628
+esgenvdatapoint,orgpermid,"numeric(20,0)",1,OrgPermID,8798513
+esgenvdatapoint,item,integer,2,Item,8798513
+esgenvdatapoint,fy,integer,3,FY,8798513
+esgenvdatapoint,valuerecdt,timestamp without time zone,4,ValueRecDt,8798513
+esgenvdatapoint,isocurrcode,character varying(3),5,ISOCurrCode,8798513
+esgenvdatapoint,value_,character varying(500),6,Value_,8798513
+esgenvdatapoint,valuescore,double precision,7,ValueScore,8798513
+esgenvindicator,orgpermid,"numeric(20,0)",1,OrgPermID,1695230
+esgenvindicator,item,integer,2,Item,1695230
+esgenvindicator,fy,integer,3,FY,1695230
+esgenvindicator,valuecalcdt,timestamp without time zone,4,ValueCalcDt,1695230
+esgenvindicator,isocurrcode,character varying(3),5,ISOCurrCode,1695230
+esgenvindicator,value_,character varying(500),6,Value_,1695230
+esgenvindicator,valuescore,double precision,7,ValueScore,1695230
+esggovdatapoint,orgpermid,"numeric(20,0)",1,OrgPermID,10387107
+esggovdatapoint,item,integer,2,Item,10387107
+esggovdatapoint,fy,integer,3,FY,10387107
+esggovdatapoint,valuerecdt,timestamp without time zone,4,ValueRecDt,10387107
+esggovdatapoint,isocurrcode,character varying(3),5,ISOCurrCode,10387107
+esggovdatapoint,value_,character varying(500),6,Value_,10387107
+esggovdatapoint,valuescore,double precision,7,ValueScore,10387107
+esggovindicator,orgpermid,"numeric(20,0)",1,OrgPermID,5200751
+esggovindicator,item,integer,2,Item,5200751
+esggovindicator,fy,integer,3,FY,5200751
+esggovindicator,valuecalcdt,timestamp without time zone,4,ValueCalcDt,5200751
+esggovindicator,isocurrcode,character varying(3),5,ISOCurrCode,5200751
+esggovindicator,value_,character varying(500),6,Value_,5200751
+esggovindicator,valuescore,double precision,7,ValueScore,5200751
+esgitem,item,integer,1,Item,633
+esgitem,feedfieldname,character varying(100),2,FeedFieldName,633
+esgitem,title,character varying(100),3,Title,633
+esgitem,description,character varying(1000),4,Description,633
+esgitem,datatypecode,smallint,5,DataTypeCode,633
+esgitem,filecode,smallint,6,FileCode,633
+esgitem,tablecode,smallint,7,TableCode,633
+esgitem,heirarchycode,smallint,8,HeirarchyCode,633
+esgitem,units,character varying(100),9,Units,633
+esgitem,polarity,character varying(30),10,Polarity,633
+esgitem,includedinscores,character varying(50),11,IncludedInScores,633
+esgitem,pillaritem,integer,12,PillarItem,633
+esgitem,catitem,integer,13,CatItem,633
+esgitem,reglicflag,smallint,14,RegLicFlag,633
+esgitem,valuescoreexists,character varying(1),15,ValueScoreExists,633
+esgitem,asrepexists,character varying(1),16,AsRepExists,633
+esgitem,sourceexists,character varying(1),17,SourceExists,633
+esgorgindcls,orgpermid,"numeric(20,0)",1,OrgPermID,67541
+esgorgindcls,siccode,character varying(10),2,SICCode,67541
+esgorgindcls,naicscode,character varying(10),3,NAICSCode,67541
+esgscores,orgpermid,"numeric(20,0)",1,OrgPermID,2278805
+esgscores,item,integer,2,Item,2278805
+esgscores,fy,integer,3,FY,2278805
+esgscores,valuecalcdt,timestamp without time zone,4,ValueCalcDt,2278805
+esgscores,value_,double precision,5,Value_,2278805
+esgscores,valuegrade,character varying(5),6,ValueGrade,2278805
+esgsocdatapoint,orgpermid,"numeric(20,0)",1,OrgPermID,15285107
+esgsocdatapoint,item,integer,2,Item,15285107
+esgsocdatapoint,fy,integer,3,FY,15285107
+esgsocdatapoint,valuerecdt,timestamp without time zone,4,ValueRecDt,15285107
+esgsocdatapoint,isocurrcode,character varying(3),5,ISOCurrCode,15285107
+esgsocdatapoint,value_,character varying(500),6,Value_,15285107
+esgsocdatapoint,valuescore,double precision,7,ValueScore,15285107
+esgsocindicator,orgpermid,"numeric(20,0)",1,OrgPermID,1959092
+esgsocindicator,item,integer,2,Item,1959092
+esgsocindicator,fy,integer,3,FY,1959092
+esgsocindicator,valuecalcdt,timestamp without time zone,4,ValueCalcDt,1959092
+esgsocindicator,isocurrcode,character varying(3),5,ISOCurrCode,1959092
+esgsocindicator,value_,character varying(500),6,Value_,1959092
+esgsocindicator,valuescore,double precision,7,ValueScore,1959092
+esgsourcedata,sourceid,"numeric(15,0)",1,Source ID,10873164
+esgsourcedata,author,character varying(250),2,Author,10873164
+esgsourcedata,date,date,3,Date,10873164
+esgsourcedata,page,character varying(25),4,Page,10873164
+esgsourcedata,publisher,character varying(150),5,Publisher,10873164
+esgsourcedata,scope,character varying(3),6,Scope,10873164
+esgsourcedata,url,character varying(1000),7,URL,10873164
+esgsourcedata,titlelangcode,character varying(10),8,Title Language Code,10873164
+esgsourcedata,commentlangcode,character varying(10),9,Comment Language Code,10873164
+esgsourcedata,abstractlangcode,character varying(10),10,Abstract Language Code,10873164
+esgsourcedata,title,character varying(250),11,Title,10873164
+esgsourcedata,comment,character varying(1000),12,Comment,10873164
+esgsourcedata,abstract,character varying(5000),13,Abstract,10873164
+esgsourcemap,orgpermid,"numeric(20,0)",1,OrgPermID,16954220
+esgsourcemap,item,integer,2,Item,16954220
+esgsourcemap,fy,integer,3,FY,16954220
+esgsourcemap,sourceid,"numeric(20,0)",4,SourceId,16954220
+esgstmtdet,orgpermid,"numeric(20,0)",1,OrgPermID,188087
+esgstmtdet,fy,integer,2,FY,188087
+esgstmtdet,perenddt,timestamp without time zone,3,PerEndDt,188087
+esgstmtdet,perisincomplete,character varying(1),4,PerIsIncomplete,188087
+esgstmtdet,coverageflg,character varying(3),5,CoverageFlg,188087
+wrds_ref_esg,orgpermid,"numeric(15,0)",1,Organization Permanent ID,45915916
+wrds_ref_esg,year,"numeric(15,0)",2,Year,45915916
+wrds_ref_esg,cusip,character varying(9),3,CUSIP,45915916
+wrds_ref_esg,isin,character varying(12),4,Primary ISIN,45915916
+wrds_ref_esg,sedol,character varying(7),5,Primary SEDOL,45915916
+wrds_ref_esg,ticker,character varying(25),6,Primary Ticker,45915916
+wrds_ref_esg,siccode,character varying(10),7,SIC Code,45915916
+wrds_ref_esg,naicscode,character varying(10),8,NAICS Code,45915916
+wrds_ref_esg,comname,character varying(150),9,Company Name,45915916
+wrds_ref_esg,fieldid,"numeric(15,0)",10,Field ID,45915916
+wrds_ref_esg,hierarchy,character varying(25),11,Field Hierarchy,45915916
+wrds_ref_esg,pillar,character varying(50),12,Field Pillar,45915916
+wrds_ref_esg,fieldname,character varying(75),13,Field Name,45915916
+wrds_ref_esg,valuedate,date,14,Value Date,45915916
+wrds_ref_esg,value,character varying(250),15,Value,45915916
+wrds_ref_esg,valuescore,"numeric(14,10)",16,Value Score,45915916
+wrds_ref_esg,currency,character varying(3),17,Currency,45915916
+wrds_ref_esg_item,item,integer,1,Item,633
+wrds_ref_esg_item,feedfieldname,character varying(100),2,Feed Field Name,633
+wrds_ref_esg_item,title,character varying(100),3,Title,633
+wrds_ref_esg_item,description,character varying(1000),4,Description,633
+wrds_ref_esg_item,datatype,character varying(100),5,Data Type,633
+wrds_ref_esg_item,file,character varying(100),6,File,633
+wrds_ref_esg_item,table,character varying(100),7,Table,633
+wrds_ref_esg_item,hierarchy,character varying(100),8,Hierarchy,633
+wrds_ref_esg_item,units,character varying(100),9,Units,633
+wrds_ref_esg_item,polarity,character varying(30),10,Polarity,633
+wrds_ref_esg_item,includedinscores,character varying(50),11,Included in Scores,633
+wrds_ref_esg_item,pillar,character varying(100),12,Pillar,633
+wrds_ref_esg_item,catitem,character varying(100),13,Category Item,633
+wrds_ref_esg_item,reglicflag,character varying(100),14,EU Regulation License,633
+wrds_ref_esg_item,valuescoreexists,character varying(1),15,Value Score Exists,633
+wrds_ref_esg_item,asrepexists,character varying(1),16,As Reported Data Exists,633
+wrds_ref_esg_item,sourceexists,character varying(1),17,Source Data Exists,633

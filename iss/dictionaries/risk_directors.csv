@@ -1,0 +1,172 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+committee96_97,id,double precision,1,IRRC Company ID,30498
+committee96_97,ticker,character varying,2,Ticker,30498
+committee96_97,lname,character varying,3,Last Name,30498
+committee96_97,fname,character varying,4,First/Given Name,30498
+committee96_97,nommbr,character varying,5,Nominating Committee Membership,30498
+committee96_97,compmbr,character varying,6,Compensation Committee Membership,30498
+committee96_97,auditmbr,character varying,7,Committee Membership Audit,30498
+committee96_97,year,double precision,8,Data year,30498
+committee96_97,did,double precision,9,Director ID,30498
+committee96_97,corpgov,character varying,10,Corporate Governance Committee Membership,30498
+committee96_97,fullname,character varying,11,,30498
+committee_numbers_97,id,double precision,1, IRRC-company-ID,1382
+committee_numbers_97,comnam,character varying,2, Company,1382
+committee_numbers_97,ticker,character varying,3, Ticker,1382
+committee_numbers_97,cusip,character varying,4, CUSIP,1382
+committee_numbers_97,tier,double precision,5, IRRC-tier,1382
+committee_numbers_97,idx_desc,character varying,6, S&P-index,1382
+committee_numbers_97,audsize,double precision,7, Audit Cmte Size,1382
+committee_numbers_97,audsize1,double precision,8, Number of employees or aff dirs sitting on Audit Cmte,1382
+committee_numbers_97,audsize2,double precision,9, Number of indep. dirs sitting on Audit Cmte,1382
+committee_numbers_97,compsize,double precision,10, Compensation Cmte Size,1382
+committee_numbers_97,compsize1,double precision,11, Number of employees or aff dirs sitting on Comp. Cmte,1382
+committee_numbers_97,compsize2,double precision,12, Number of indep. dirs sitting on Comp. Cmte,1382
+committee_numbers_97,nomsize,double precision,13, Nom. Cmte Size,1382
+committee_numbers_97,nomsize1,double precision,14, Number of employees or aff. dirs sitting on Nom. Cmte,1382
+committee_numbers_97,nomsize2,double precision,15, Number of indep. dirs sitting on Nom. Cmte,1382
+directors,year,double precision,1,Year of the Annual Meeting,166375
+directors,legacy_pps_id,double precision,2,Legacy IRRC company ID,166375
+directors,rt_id,double precision,3,IRRC company ID,166375
+directors,director_detail_id,double precision,4,IRRC director ID,166375
+directors,legacy_director_id,double precision,5,Legacy IRRC director ID,166375
+directors,ticker,character varying,6,Ticker,166375
+directors,cusip,character varying,7,CUSIP - 6 Digit,166375
+directors,name,character varying,8,Company Name,166375
+directors,meetingdate,date,9,Meeting date,166375
+directors,first_name,character varying,10,First name,166375
+directors,last_name,character varying,11,Last name,166375
+directors,fullname,character varying,12,Director Full Name,166375
+directors,age,double precision,13,Director age,166375
+directors,female,double precision,14,Female?,166375
+directors,ethnicity,character varying,15,Ethnicity,166375
+directors,indexname,character varying,16,S&P - index,166375
+directors,classification,character varying,17,Board affiliation (E-employee; I-Independent; L-linked),166375
+directors,country_of_empl,character varying,18,Country of employment,166375
+directors,eco_desc,character varying,19,Description of Economic group,166375
+directors,employment_other,character varying,20,Other Proffession,166375
+directors,employment_subsidiary,character varying,21,Employment title - if executive of subsidiary,166375
+directors,empl_category,character varying,22,Employment category,166375
+directors,exchange,character varying,23,stock exchange,166375
+directors,index_name,character varying,24,Description of Industry Code,166375
+directors,intercomp,character varying,25,Person with whom the directorship interlocks,166375
+directors,othert,character varying,26,Other Title Description (2003),166375
+directors,othertitle,character varying,27,Other employment title,166375
+directors,primary_employer,character varying,28,Primary company name,166375
+directors,prititle,character varying,29,Title in Primary Job (available up to 2001),166375
+directors,relation,character varying,30,Relation to employee,166375
+directors,type_of_services,character varying,31,Type of services,166375
+directors,annrev,double precision,32,Revenue/Turnover,166375
+directors,attend_less75_pct,double precision,33,Attended <75% of meetings,166375
+directors,audit_chair,double precision,34,Audit committee chair,166375
+directors,audit_membership,double precision,35,Audit committee member,166375
+directors,business_transaction,double precision,36,Business transaction?,166375
+directors,charity,double precision,37,Charity relationship?,166375
+directors,comp_chair,double precision,38,Compensation committee chair,166375
+directors,comp_membership,double precision,39,Compensation committee member,166375
+directors,designated,double precision,40,Designated director?,166375
+directors,dirsince,double precision,41,Year service began,166375
+directors,eco_code,double precision,42,Economic Group,166375
+directors,employment_ceo,double precision,43,Employment title - CEO,166375
+directors,employment_cfo,double precision,44,Employment title - CFO,166375
+directors,employment_chairman,double precision,45,Employment title - chairman,166375
+directors,employment_coo,double precision,46,Employment title - COO,166375
+directors,employment_evp,double precision,47,Employment title - Executive VP,166375
+directors,employment_president,double precision,48,Employment title - president,166375
+directors,employment_secretary,double precision,49,Employment title - Secretary,166375
+directors,employment_svp,double precision,50,Employment title - senior VP,166375
+directors,employment_treasurer,double precision,51,Employment title - treasurer,166375
+directors,employment_vicechairman,double precision,52,Employment title - vice-chairman,166375
+directors,employment_vp,double precision,53,Employment title - VP,166375
+directors,former_employee_yn,double precision,54,Former employee?,166375
+directors,gov_comm_mem,double precision,55,Corporate gov. committee member,166375
+directors,grandfath,double precision,56,Grandfathered on retire/tenure policy-No longer collected,166375
+directors,idx_code,double precision,57,"S&P Index Code (e.g. S&P500=10, MidCaps=92,SmallCaps=91)",166375
+directors,ind_code,double precision,58,Industry Group Code,166375
+directors,insthold,double precision,59,Institutional Holdings,166375
+directors,interlocking,double precision,60,Interlocking directorship?,166375
+directors,mtgmonth,double precision,61,Month of Meeting,166375
+directors,nomchair,double precision,62,Committee Chair \x1A Nominating,166375
+directors,nominee,double precision,63,For election at the current year annual meeting,166375
+directors,nom_membership,double precision,64,Nominating committee member,166375
+directors,nonempchr,double precision,65,Nonemployee serving as chairman,166375
+directors,num_of_shares,double precision,66,Shares held,166375
+directors,other,double precision,67,Other Title,166375
+directors,otherlink,double precision,68,Other affiliation,166375
+directors,outside_public_boards,double precision,69,# of other major company boards,166375
+directors,ownless1,double precision,70,Own less than 1 pct.,166375
+directors,pcnt_ctrl_votingpower,double precision,71,Percent control of voting power,166375
+directors,priorserv,double precision,72,Prior service on board-No longer collected,166375
+directors,prof_services_yn,double precision,73,Prof Services?,166375
+directors,relative_yn,double precision,74,Relative?,166375
+directors,subs,double precision,75,Substitle,166375
+directors,votecref,double precision,76,Common shares outstanding from Proxy,166375
+directors,voting,double precision,77,Total Voting Power,166375
+directors,year_of_termination,double precision,78,Year of termination,166375
+directors,year_term_ends,double precision,79,Year service ends,166375
+dirnames,year,double precision,1,Year of the Annual Meeting,19551
+dirnames,ticker,character varying,2,Ticker,19551
+dirnames,cusip,character varying,3,Header CUSIP,19551
+dirnames,entity_name,character varying,4,Company Name,19551
+rmdirectors,year,double precision,1,Data Year,268451
+rmdirectors,rt_id,"numeric(10,0)",2,IRRC Company ID,268451
+rmdirectors,company_id,double precision,3,New Company ID,268451
+rmdirectors,director_detail_id,double precision,4,IRRC Director ID,268451
+rmdirectors,ticker,character varying(8),5,Ticker,268451
+rmdirectors,cusip,character varying(9),6,CUSIP,268451
+rmdirectors,name,character varying(50),7,Company Name,268451
+rmdirectors,meetingdate,date,8,Meeting date,268451
+rmdirectors,first_name,character varying(30),9,Director - First Name,268451
+rmdirectors,last_name,character varying(35),10,Director - Last Name,268451
+rmdirectors,fullname,character varying(50),11,Director - Full Name,268451
+rmdirectors,age,integer,12,Director_Age,268451
+rmdirectors,ethnicity,character varying(50),13,Ethinicity,268451
+rmdirectors,indexname,character varying(10),14,S&P - Index,268451
+rmdirectors,primary_employer,character varying(120),15,Primary Company Name,268451
+rmdirectors,prititle,character varying(20),16,Employment Category,268451
+rmdirectors,employment_subsidiary,character varying(150),17,Employment Title - if Executive of Subsidary,268451
+rmdirectors,othertitle,character varying(350),18,Other Employment Title,268451
+rmdirectors,country_of_empl,character varying(50),19,Country of Employment,268451
+rmdirectors,dirsince,integer,20,Year_Service_Began,268451
+rmdirectors,classification,character varying(10),21,Board affiliation (E-employee/insider; I-Independent; L-linked; NA-not ascertainable),268451
+rmdirectors,grandfath,character varying(1),22,Grandfathered on retire/tenure policy - [No longer collected],268451
+rmdirectors,priorserv,character varying(1),23,Prior service on board - [No longer collected],268451
+rmdirectors,type_of_services,character varying(20),24,Type of Services,268451
+rmdirectors,relation,character varying(100),25,Relation to Employee?,268451
+rmdirectors,mtgmonth,double precision,26,Meeting Month,268451
+rmdirectors,year_term_ends,integer,27,Year Service Ends,268451
+rmdirectors,ownless1,character varying(3),28,Director holds <1% Voting Power?,268451
+rmdirectors,exchange_type,character varying(10),29,Exchange Type,268451
+rmdirectors,nominee,character varying(15),30,Nominee,268451
+rmdirectors,num_of_shares,"numeric(10,0)",31,Shares held,268451
+rmdirectors,pcnt_ctrl_votingpower,"numeric(9,2)",32,Percent control of voting power,268451
+rmdirectors,outside_public_boards,double precision,33,Number_of_Other_Major_Company_Boards,268451
+rmdirectors,female,character varying(3),34,Female?,268451
+rmdirectors,nom_membership,character varying(6),35,Nominating Committee Member,268451
+rmdirectors,cg_membership,character varying(6),36,Corporate Gov. Committee Member,268451
+rmdirectors,comp_membership,character varying(6),37,Compensation Committee Member,268451
+rmdirectors,audit_membership,character varying(6),38,Audit Committee Member,268451
+rmdirectors,year_of_termination,smallint,39,Year of Termination (Mostly incomplete),268451
+rmdirectors,employment_ceo,character varying(3),40,Employment title - CEO,268451
+rmdirectors,employment_chairman,character varying(3),41,Employment title - Chairman,268451
+rmdirectors,employment_president,character varying(3),42,Employment title - President,268451
+rmdirectors,employment_vicechairman,character varying(3),43,Employment title - Vice-Chairman,268451
+rmdirectors,employment_treasurer,character varying(3),44,Employment title - Treasurer,268451
+rmdirectors,employment_cfo,character varying(3),45,Employment title - CFO,268451
+rmdirectors,employment_coo,character varying(3),46,Employment title - COO,268451
+rmdirectors,employment_secretary,character varying(3),47,Employment title - Secretary,268451
+rmdirectors,employment_evp,character varying(3),48,Employment title - Executive VP,268451
+rmdirectors,employment_svp,character varying(3),49,Employment title - Senior VP,268451
+rmdirectors,employment_vp,character varying(3),50,Employment title - VP,268451
+rmdirectors,attend_less75_pct,character varying(4),51,Attended < 75% of Meetings,268451
+rmdirectors,prof_services_yn,character varying(3),52,Prof Services?,268451
+rmdirectors,former_employee_yn,character varying(3),53,Former Employee?,268451
+rmdirectors,designated,character varying(3),54,Designated Director?,268451
+rmdirectors,business_transaction,character varying(3),55,Business Transaction?,268451
+rmdirectors,relative_yn,character varying(3),56,Relative?,268451
+rmdirectors,interlocking,character varying(3),57,Interlocking Directorship?,268451
+rmdirectors,charity,character varying(4),58,Charity Relationship?,268451
+rmdirectors,otherlink,character varying(3),59,Other Affiliation,268451
+rmdirectors,financial_expert,character varying(4),60,Financial Expertise?,268451
+rmdirectors,succ_comm,character varying(4),61,Succ Cmte/Plan,268451
+rmdirectors,non_ceo_leader,character varying(20),62,Non-CEO Leader type,268451

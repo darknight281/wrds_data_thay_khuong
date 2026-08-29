@@ -1,0 +1,206 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+euro_companyfy,companyid,double precision,1,CompanyID,8231
+euro_companyfy,cik,character varying(10),2,CIK,8231
+euro_companyfy,ticker,character varying(10),3,Ticker,8231
+euro_companyfy,companyname,character varying(53),4,Company Name,8231
+euro_companyfy,cusip,character varying(9),5,CUSIP,8231
+euro_companyfy,fiscalyear,double precision,6,Fiscal Year,8231
+euro_companyfy,fiscalmonth,double precision,7,Fiscal Month,8231
+euro_companyfy,type,character varying(97),8,Type,8231
+euro_companyfy,fiscalyearend,date,9,Fiscal Year End,8231
+euro_companyfy,filingdate,date,10,Filing Date,8231
+euro_companyfy,meetingdate,date,11,Meeting Date,8231
+euro_companyfy,splitadjustmentfactor,double precision,12,Split Adjustment Factor,8231
+euro_companyfy,businessstreet,character varying(60),13,Business Street,8231
+euro_companyfy,businesscity,character varying(25),14,Business City,8231
+euro_companyfy,businessstate,character varying(2),15,Business State,8231
+euro_companyfy,businesszip,character varying(8),16,Business Zip,8231
+euro_companyfy,mailingstreet,character varying(60),17,Mailing Street,8231
+euro_companyfy,mailingcity,character varying(25),18,Mailing City,8231
+euro_companyfy,mailingstate,character varying(2),19,Mailing State,8231
+euro_companyfy,mailingzip,character varying(10),20,Mailing Zip,8231
+euro_companyfy,currencycode,character varying(3),21,Currency Code,8231
+euro_companyfy,currencyconversionratio,double precision,22,Currency Conversion Ratio,8231
+euro_companyfy,currencyconversiondate,date,23,Currency Conversion Date,8231
+euro_comppeer,companyid,double precision,1,CompanyID,26161
+euro_comppeer,cik,character varying(10),2,CIK,26161
+euro_comppeer,fiscalyear,double precision,3,Fiscal Year,26161
+euro_comppeer,fiscalmonth,double precision,4,Fiscal Month,26161
+euro_comppeer,peercik,character varying(10),5,Peer CIK,26161
+euro_comppeer,peerticker,character varying(11),6,Peer Ticker,26161
+euro_comppeer,peername,character varying(59),7,Peer Name,26161
+euro_consultant,companyid,double precision,1,CompanyID,9970
+euro_consultant,cik,character varying(10),2,CIK,9970
+euro_consultant,fiscalyear,double precision,3,Fiscal Year,9970
+euro_consultant,fiscalmonth,double precision,4,Fiscal Month,9970
+euro_consultant,status,character varying(11),5,Status,9970
+euro_consultant,type,character varying(31),6,Type,9970
+euro_consultant,compconsultantid,double precision,7,Compensation Consultant ID,9970
+euro_consultant,compconsultantname,character varying(100),8,Compensation Consultant Name,9970
+euro_consultant,isprimary,double precision,9,Is Primary,9970
+euro_consultant,retainedby,character varying(23),10,Retained By,9970
+euro_consultant,fees,double precision,11,Fees,9970
+euro_consultant,otherfees,double precision,12,Other Fees,9970
+euro_gpbaabs,companyid,double precision,1,CompanyID,64059
+euro_gpbaabs,cik,character varying(10),2,CIK,64059
+euro_gpbaabs,fiscalyear,double precision,3,Fiscal Year,64059
+euro_gpbaabs,grantid,double precision,4,Grant ID,64059
+euro_gpbaabs,absid,double precision,5,Abs ID,64059
+euro_gpbaabs,periodid,double precision,6,Period ID,64059
+euro_gpbaabs,metrictype,character varying(34),7,Metric Type,64059
+euro_gpbaabs,metric,character varying(40),8,Metric,64059
+euro_gpbaabs,metricother,character varying(92),9,Other Metric,64059
+euro_gpbaabs,metrictargetoperand,character varying(2),10,Metric Target Operand,64059
+euro_gpbaabs,metrictargetvalue,double precision,11,Metric Target Value,64059
+euro_gpbaabs,metricgrowthvalue,double precision,12,Metric Growth Value,64059
+euro_gpbaabs,metricispershare,double precision,13,Metric is per Share,64059
+euro_gpbaabs,metricismargin,double precision,14,Metric is a Margin Measurement,64059
+euro_gpbaabs,metricisgrowth,double precision,15,Metric is a Growth Measurement,64059
+euro_gpbaabs,metricisbusgeo,double precision,16,Metric is a Business Unit or Geographic Area,64059
+euro_gpbaabs,percentvest,double precision,17,Percent Vest,64059
+euro_gpbaabs,vestlow,double precision,18,Vest Low,64059
+euro_gpbaabs,vesthigh,double precision,19,Vest High,64059
+euro_gpbaabs,onetimehit,double precision,20,One Time Hit,64059
+euro_gpbaabs,payoutstructure,character varying(323),21,Payout Structure,64059
+euro_gpbaabs,goalthreshold,double precision,22,Performance goal for a Threshold payout,64059
+euro_gpbaabs,goaltarget,double precision,23,Performance goal for a Target payout,64059
+euro_gpbaabs,goalmax,double precision,24,Performance goal for a Max payout,64059
+euro_gpbaabs,payoutthreshold,double precision,25,Threshold payout as a percentage of Target,64059
+euro_gpbaabs,payouttarget,double precision,26,Target payout,64059
+euro_gpbaabs,payoutmax,double precision,27,Max payout as a percentage of Target,64059
+euro_gpbaabs,interpolationthreshold,character varying(2),28,Indicator for interpolation of payouts between Threshold and Target,64059
+euro_gpbaabs,interpolationtarget,character varying(2),29,Indicator for interpolation of payouts between Target and Max,64059
+euro_gpbaabs,interpolationmax,character varying(2),30,Indicator for interpolation of payouts beyond Max,64059
+euro_gpbaabs,rollover,double precision,31,Rollover,64059
+euro_gpbaabs,distribution1,double precision,32,Distribution 1,64059
+euro_gpbaabs,distribution2,double precision,33,Distribution 2,64059
+euro_gpbaabs,distribution3,double precision,34,Distribution 3,64059
+euro_gpbaabs,analystcomments,character varying(1),35,Analyst Comments,64059
+euro_gpbagrant,companyid,double precision,1,CompanyID,17561
+euro_gpbagrant,cik,character varying(10),2,CIK,17561
+euro_gpbagrant,fiscalyear,double precision,3,Fiscal Year,17561
+euro_gpbagrant,fiscalmonth,double precision,4,Fiscal Month,17561
+euro_gpbagrant,participantid,double precision,5,Participant ID,17561
+euro_gpbagrant,grantid,double precision,6,Grant ID,17561
+euro_gpbagrant,awardtype,character varying(13),7,Award Type,17561
+euro_gpbagrant,paidincash,double precision,8,Paid in Cash,17561
+euro_gpbagrant,performancetype,character varying(6),9,Performance Type,17561
+euro_gpbagrant,grantdate,date,10,Grant Date,17561
+euro_gpbagrant,nonequitythreshold,double precision,11,Amount in dollars paid out at threshold level of performance for non-equity awards,17561
+euro_gpbagrant,nonequitytarget,double precision,12,Amount in dollars paid out at target level of performance for non-equity awards,17561
+euro_gpbagrant,nonequitymax,double precision,13,Amount in dollars paid out at max level of performance for non-equity awards,17561
+euro_gpbagrant,equitythreshold,double precision,14,Number of units paid out at threshold level of performance for equity awards,17561
+euro_gpbagrant,equitytarget,double precision,15,Number of units paid out at target level of performance for equity awards,17561
+euro_gpbagrant,equitymax,double precision,16,Number of units paid out at max level of performance for equity awards,17561
+euro_gpbagrant,stockaward,double precision,17,Stock Award,17561
+euro_gpbagrant,optionaward,double precision,18,Option Award,17561
+euro_gpbagrant,exerciseprice,double precision,19,Exercise Price,17561
+euro_gpbagrant,grantdatefv,double precision,20,Grant date fair value of each award,17561
+euro_gpbagrant,expirationdate,date,21,Expiration Date,17561
+euro_gpbagrant,numabsolute,double precision,22,Number of absolute performance goals for each award,17561
+euro_gpbagrant,numaccelerated,double precision,23,Number of accelerated performance goals for each award,17561
+euro_gpbagrant,numrelative,double precision,24,Number of relative performance goals for each award,17561
+euro_gpbagrant,performancegrouping,character varying(888),25,Performance Grouping,17561
+euro_gpbagrant,vestingschedule,character varying(7),26,Vesting Schedule,17561
+euro_gpbagrant,vestaftercontingency,double precision,27,Vesting After Contingency,17561
+euro_gpbagrant,vestlowgrant,double precision,28,Vest Low Grant,17561
+euro_gpbagrant,vesthighgrant,double precision,29,Vest High Grant,17561
+euro_gpbagrant,vestingunitlength,character varying(1),30,Vesting Unit Length,17561
+euro_gpbagrant,isexchange,double precision,31,Is Exchange,17561
+euro_gpbagrant,grantdatefvinferred,double precision,32,Grant date fair value inferred,17561
+euro_gpbagrant,legacypercentoptions,character varying(1),33,Legacy percent options,17561
+euro_gpbagrant,analystcomments,character varying(3975),34,Analyst Comments,17561
+euro_gpbagrant,isspecial,double precision,35,IsSpecial,17561
+euro_gpbarel,companyid,double precision,1,CompanyID,6957
+euro_gpbarel,cik,character varying(10),2,CIK,6957
+euro_gpbarel,fiscalyear,double precision,3,Fiscal Year,6957
+euro_gpbarel,grantid,double precision,4,Grant ID,6957
+euro_gpbarel,relid,double precision,5,Rel ID,6957
+euro_gpbarel,periodid,double precision,6,Period ID,6957
+euro_gpbarel,metrictype,character varying(34),7,Metric Type,6957
+euro_gpbarel,metric,character varying(40),8,Metric,6957
+euro_gpbarel,metricother,character varying(203),9,Other Metric,6957
+euro_gpbarel,relativebenchmark,character varying(11),10,Relative Benchmark,6957
+euro_gpbarel,relativebenchmarkother,character varying(181),11,Other Relative Benchmark,6957
+euro_gpbarel,comparemethod,character varying(10),12,Compare Method,6957
+euro_gpbarel,comparemethodother,character varying(183),13,Other Compare Method,6957
+euro_gpbarel,percentvest,double precision,14,Percent Vest,6957
+euro_gpbarel,vestlow,double precision,15,Vest Low,6957
+euro_gpbarel,vesthigh,double precision,16,Vest High,6957
+euro_gpbarel,onetimehit,double precision,17,One Time Hit,6957
+euro_gpbarel,payoutstructure,character varying(959),18,Payout Structure,6957
+euro_gpbarel,goalthreshold,double precision,19,Performance goal for a Threshold payout,6957
+euro_gpbarel,goaltarget,double precision,20,Performance goal for a Target payout,6957
+euro_gpbarel,goalmax,double precision,21,Performance goal for a Max payout,6957
+euro_gpbarel,payoutthreshold,double precision,22,Threshold payout as a percentage of Target,6957
+euro_gpbarel,payouttarget,double precision,23,Target payout,6957
+euro_gpbarel,payoutmax,double precision,24,Max payout as a percentage of Target,6957
+euro_gpbarel,interpolationthreshold,character varying(2),25,Indicator for interpolation of payouts between Threshold and Target,6957
+euro_gpbarel,interpolationtarget,character varying(2),26,Indicator for interpolation of payouts between Target and Max,6957
+euro_gpbarel,interpolationmax,character varying(2),27,Indicator for interpolation of payouts beyond Max,6957
+euro_gpbarel,rollover,double precision,28,Rollover,6957
+euro_gpbarel,distribution1,double precision,29,Distribution 1,6957
+euro_gpbarel,distribution2,double precision,30,Distribution 2,6957
+euro_gpbarel,distribution3,double precision,31,Distribution 3,6957
+euro_gpbarel,analystcomments,character varying(1194),32,Analyst Comments,6957
+euro_gpbarelpeer,companyid,double precision,1,CompanyID,26096
+euro_gpbarelpeer,fiscalyear,double precision,2,Fiscal Year,26096
+euro_gpbarelpeer,grantid,double precision,3,Grant ID,26096
+euro_gpbarelpeer,peercik,character varying(10),4,Peer CIK,26096
+euro_gpbarelpeer,peerticker,character varying(20),5,Peer Ticker,26096
+euro_gpbarelpeer,peername,character varying(57),6,Peer Name,26096
+euro_gpbarelpeer,cik,character varying(10),7,CIK,26096
+euro_holdingreq,companyid,double precision,1,CompanyID,37252
+euro_holdingreq,cik,character varying(10),2,CIK,37252
+euro_holdingreq,fiscalyear,double precision,3,Fiscal Year,37252
+euro_holdingreq,fiscalmonth,double precision,4,Fiscal Month,37252
+euro_holdingreq,status,character varying(11),5,Status,37252
+euro_holdingreq,type,character varying(21),6,Type,37252
+euro_holdingreq,indicatorsalarymul,double precision,7,Holding requirements are defined as a multiple of base salary,37252
+euro_holdingreq,indicatorshares,double precision,8,Holding requirements are defined as a specific number of shares,37252
+euro_holdingreq,indicatorvalue,double precision,9,Holding requirements are defined as a specific dollar value,37252
+euro_holdingreq,salarymulmin,double precision,10,The minimum value for holding requirements when expressed as a multiple of base salary,37252
+euro_holdingreq,salarymulmax,double precision,11,The maximum value for holding requirements when expressed as a multiple of base salary,37252
+euro_holdingreq,sharesmin,double precision,12,The minimum value for holding requirements when expressed as a specific number of shares,37252
+euro_holdingreq,sharesmax,double precision,13,The minimum value for holding requirements when expressed as a specific number of shares,37252
+euro_holdingreq,valuemin,double precision,14,The minimum value for holding requirements when expressed as a dollar amount,37252
+euro_holdingreq,valuemax,double precision,15,The maximum value for holding requirements when expressed as a dollar amount,37252
+euro_holdingreq,nonreq,double precision,16,The firm has holding requirements for executives beyond the Top 5 executives,37252
+euro_holdingreq,yrstoachieveinmonmin,double precision,17,The minimum number of months to achieve the holding requirements,37252
+euro_holdingreq,yrstoachieveinmonmax,double precision,18,The maximum number of months to achieve the holding requirements,37252
+euro_holdingreq,reqmet,character varying(13),19,Holding requirements met,37252
+euro_holdingreq,comments,character varying(806),20,Comments,37252
+euro_participantfy,companyid,double precision,1,CompanyID,8180
+euro_participantfy,cik,character varying(10),2,CIK,8180
+euro_participantfy,fiscalyear,double precision,3,Fiscal Year,8180
+euro_participantfy,fiscalmonth,double precision,4,Fiscal Month,8180
+euro_participantfy,participantid,double precision,5,Participant ID,8180
+euro_participantfy,participantcik,character varying(10),6,Participant CIK,8180
+euro_participantfy,fullname,character varying(47),7,Full Name,8180
+euro_participantfy,prefix,character varying(1),8,Prefix,8180
+euro_participantfy,firstname,character varying(28),9,First Name,8180
+euro_participantfy,middlename,character varying(25),10,Middle Name,8180
+euro_participantfy,lastname,character varying(31),11,Last Name,8180
+euro_participantfy,suffix,character varying(3),12,Suffix,8180
+euro_participantfy,title,character varying(100),13,Title,8180
+euro_participantfy,rolecode1,character varying(4),14,Role Code 1,8180
+euro_participantfy,rolecode2,character varying(3),15,Role Code 2,8180
+euro_participantfy,rolecode3,character varying(3),16,Role Code 3,8180
+euro_participantfy,rolecode4,character varying(2),17,Role Code 4,8180
+euro_participantfy,currentceo,double precision,18,Participant is Current CEO,8180
+euro_participantfy,currentcfo,double precision,19,Participant is Current CFO,8180
+euro_participantfy,currentdirector,double precision,20,Participant is a Current Director,8180
+euro_participantfy,salary,character varying(1),21,Salary,8180
+euro_sumcomp,cik,character varying(10),1,CIK,8180
+euro_sumcomp,companyid,double precision,2,CompanyID,8180
+euro_sumcomp,fiscalyear,double precision,3,Fiscal Year,8180
+euro_sumcomp,fiscalmonth,double precision,4,Fiscal Month,8180
+euro_sumcomp,participantid,double precision,5,Participant ID,8180
+euro_sumcomp,salary,double precision,6,Salary,8180
+euro_sumcomp,bonus,double precision,7,Bonus,8180
+euro_sumcomp,stockawards,double precision,8,Stock Awards,8180
+euro_sumcomp,optionawards,double precision,9,Option Awards,8180
+euro_sumcomp,nonequitycomp,double precision,10,Non-Equity Incentive Plan Compensation,8180
+euro_sumcomp,pensionnqdc,double precision,11,Change in Pension Value and Nonqualified Deferred Compensation (NQDC) Earnings,8180
+euro_sumcomp,othercomp,double precision,12,Other Compensation,8180
+euro_sumcomp,totalcomp,double precision,13,Total Compensation,8180

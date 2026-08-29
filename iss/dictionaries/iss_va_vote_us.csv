@@ -1,0 +1,182 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+chars,companyid,double precision,1,CompanyID,0
+chars,name,character varying(80),2,Name,0
+chars,countryofinc,character varying(27),3,CountryOfInc,0
+chars,ticker,character varying(20),4,Ticker,0
+chars,cusip,character varying(11),5,CUSIP,0
+chars,meetingid,double precision,6,MeetingID,0
+chars,meetingdate,date,7,MeetingDate,0
+chars,meetingtype,character varying(16),8,MeetingType,0
+chars,recorddate,date,9,RecordDate,0
+chars,meetingresultstatus,character varying(8),10,MeetingResultStatus,0
+chars,meetingdisclosurestatus,character varying(13),11,MeetingDisclosureStatus,0
+chars,capitalrepresentedshares,double precision,12,CapitalRepresentedShares,0
+chars,capitalrepresentedsharespercenta,double precision,13,CapitalRepresentedSharesPercentage,0
+chars,votesrepresentedshares,double precision,14,VotesRepresentedShares,0
+chars,votesrepresentedsharespercentage,double precision,15,VotesRepresentedSharesPercentage,0
+chars,agendachangedyn,double precision,16,AgendaChangedYN,0
+chars,sponsor,character varying(11),17,Sponsor,0
+chars,issagendaitemid,character varying(5),18,ISSagendaItemID,0
+chars,agendageneraldesc,character varying(121),19,AgendaGeneralDesc,0
+chars,itemonagendaid,double precision,20,ItemOnAgendaID,0
+chars,itemdesc,character varying(257),21,ItemDesc,0
+chars,ballotitemnumber,character varying(5),22,BallotItemNumber,0
+chars,seqnumber,double precision,23,SeqNumber,0
+chars,mgmtrec,character varying(11),24,MGMTrec,0
+chars,voterequirement,double precision,25,VoteRequirement,0
+chars,base,character varying(15),26,Base,0
+chars,outstandingshare,double precision,27,OutstandingShare,0
+chars,votedfor,double precision,28,VotedFor,0
+chars,forpct,double precision,29,ForPct,0
+chars,votedagainst,double precision,30,VotedAgainst,0
+chars,againstpct,double precision,31,AgainstPct,0
+chars,votedabstain,double precision,32,VotedAbstain,0
+chars,brokernonvote,double precision,33,BrokerNonVote,0
+chars,votedwithheld,character varying(1),34,VotedWithheld,0
+chars,voteresult,character varying(14),35,VoteResult,0
+chars,decidedby,character varying(13),36,DecidedBy,0
+chars,requirement,character varying(13),37,Requirement,0
+chars,votedfor1yr,double precision,38,VotedFor1yr,0
+chars,votedfor2yr,double precision,39,VotedFor2yr,0
+chars,votedfor3yr,double precision,40,VotedFor3yr,0
+chars,note,character varying(400),41,Note,0
+chars,aq,character varying(95),42,AQ,0
+chars,ar,character varying(19),43,AR,0
+chars,data_year,double precision,44,,0
+chars,irrcpr_company_id,character varying(1),45,,0
+chars,iss_companyid,double precision,46,,0
+chars,indexname,character varying(26),47,indexname,0
+chars,cusip_6,character varying(6),48,,0
+chars,meeting_date,date,49,,0
+chars,issue_code,double precision,50,,0
+chars,meeting_code,character varying(15),51,,0
+chars,company_name,character varying(80),52,,0
+chars,resolution,character varying(120),53,,0
+chars,resolution_type,character varying(3),54,,0
+chars,other_status,character varying(14),55,,0
+chars,foot_note,character varying(3),56,,0
+chars,omit_reason,character varying(4),57,,0
+chars,sponsor_name,character varying(255),58,,0
+chars,sponsor_type,character varying(16),59,,0
+chars,majoritysupported,character varying(3),60,,0
+chars,share_based_votes,character varying(1),61,,0
+chars,vote_for_percentage,double precision,62,,0
+chars,votes1yr,double precision,63,votes1yr,0
+chars,votes2yr,double precision,64,votes2yr,0
+chars,votes3yr,double precision,65,votes3yr,0
+chars,institutionid,double precision,66,,0
+chars,npxfileid,character varying(20),67,,0
+chars,institutionname,character varying(255),68,,0
+chars,fundid,double precision,69,,0
+chars,fundname,character varying(255),70,,0
+chars,companyname,character varying(80),71,,0
+chars,securityid,character varying(14),72,,0
+chars,securitytypeid,double precision,73,,0
+chars,version,character varying(50),74,,0
+chars,mgtrec,character varying(20),75,,0
+chars,fundvote,character varying(20),76,,0
+chars_us,companyid,double precision,1,CompanyID,0
+chars_us,name,character varying(80),2,Name,0
+chars_us,countryofinc,character varying(27),3,CountryOfInc,0
+chars_us,ticker,character varying(20),4,Ticker,0
+chars_us,cusip,character varying(11),5,CUSIP,0
+chars_us,meetingid,double precision,6,MeetingID,0
+chars_us,meetingdate,date,7,MeetingDate,0
+chars_us,meetingtype,character varying(16),8,MeetingType,0
+chars_us,recorddate,date,9,RecordDate,0
+chars_us,meetingresultstatus,character varying(8),10,MeetingResultStatus,0
+chars_us,meetingdisclosurestatus,character varying(13),11,MeetingDisclosureStatus,0
+chars_us,capitalrepresentedshares,double precision,12,CapitalRepresentedShares,0
+chars_us,capitalrepresentedsharespercenta,double precision,13,CapitalRepresentedSharesPercentage,0
+chars_us,votesrepresentedshares,double precision,14,VotesRepresentedShares,0
+chars_us,votesrepresentedsharespercentage,double precision,15,VotesRepresentedSharesPercentage,0
+chars_us,agendachangedyn,double precision,16,AgendaChangedYN,0
+chars_us,sponsor,character varying(11),17,Sponsor,0
+chars_us,issagendaitemid,character varying(5),18,ISSagendaItemID,0
+chars_us,agendageneraldesc,character varying(121),19,AgendaGeneralDesc,0
+chars_us,itemonagendaid,double precision,20,ItemOnAgendaID,0
+chars_us,itemdesc,character varying(257),21,ItemDesc,0
+chars_us,ballotitemnumber,character varying(5),22,BallotItemNumber,0
+chars_us,seqnumber,double precision,23,SeqNumber,0
+chars_us,mgmtrec,character varying(11),24,MGMTrec,0
+chars_us,voterequirement,double precision,25,VoteRequirement,0
+chars_us,base,character varying(15),26,Base,0
+chars_us,outstandingshare,double precision,27,OutstandingShare,0
+chars_us,votedfor,double precision,28,VotedFor,0
+chars_us,forpct,double precision,29,ForPct,0
+chars_us,votedagainst,double precision,30,VotedAgainst,0
+chars_us,againstpct,double precision,31,AgainstPct,0
+chars_us,votedabstain,double precision,32,VotedAbstain,0
+chars_us,brokernonvote,double precision,33,BrokerNonVote,0
+chars_us,votedwithheld,character varying(1),34,VotedWithheld,0
+chars_us,voteresult,character varying(14),35,VoteResult,0
+chars_us,decidedby,character varying(13),36,DecidedBy,0
+chars_us,requirement,character varying(13),37,Requirement,0
+chars_us,votedfor1yr,double precision,38,VotedFor1yr,0
+chars_us,votedfor2yr,double precision,39,VotedFor2yr,0
+chars_us,votedfor3yr,double precision,40,VotedFor3yr,0
+chars_us,note,character varying(400),41,Note,0
+chars_us,aq,character varying(95),42,AQ,0
+chars_us,ar,character varying(19),43,AR,0
+chars_us,data_year,double precision,44,,0
+chars_us,irrcpr_company_id,character varying(1),45,,0
+chars_us,iss_companyid,double precision,46,,0
+chars_us,indexname,character varying(26),47,indexname,0
+chars_us,cusip_6,character varying(6),48,,0
+chars_us,meeting_date,date,49,,0
+chars_us,issue_code,double precision,50,,0
+chars_us,meeting_code,character varying(15),51,,0
+chars_us,company_name,character varying(80),52,,0
+chars_us,resolution,character varying(120),53,,0
+chars_us,resolution_type,character varying(3),54,,0
+chars_us,other_status,character varying(14),55,,0
+chars_us,foot_note,character varying(3),56,,0
+chars_us,omit_reason,character varying(4),57,,0
+chars_us,sponsor_name,character varying(255),58,,0
+chars_us,sponsor_type,character varying(16),59,,0
+chars_us,majoritysupported,character varying(3),60,,0
+chars_us,share_based_votes,character varying(1),61,,0
+chars_us,vote_for_percentage,double precision,62,,0
+chars_us,votes1yr,double precision,63,votes1yr,0
+chars_us,votes2yr,double precision,64,votes2yr,0
+chars_us,votes3yr,double precision,65,votes3yr,0
+chars_us,institutionid,double precision,66,,0
+chars_us,npxfileid,character varying(20),67,,0
+chars_us,institutionname,character varying(255),68,,0
+chars_us,fundid,double precision,69,,0
+chars_us,fundname,character varying(255),70,,0
+chars_us,companyname,character varying(80),71,,0
+chars_us,securityid,character varying(14),72,,0
+chars_us,securitytypeid,double precision,73,,0
+chars_us,version,character varying(50),74,,0
+chars_us,mgtrec,character varying(20),75,,0
+chars_us,fundvote,character varying(20),76,,0
+vavoteresults,companyid,double precision,1,ISS Company ID,887341
+vavoteresults,name,character varying(100),2,Company Name,887341
+vavoteresults,countryofinc,character varying(15),3,Country of Incorporation,887341
+vavoteresults,ticker,character varying(20),4,Ticker,887341
+vavoteresults,cusip,character varying(20),5,CUSIP,887341
+vavoteresults,meetingid,double precision,6,Meeting ID,887341
+vavoteresults,meetingtype,character varying(16),7,Meeting Type,887341
+vavoteresults,recorddate,date,8,Record Date,887341
+vavoteresults,sponsor,character varying(71),9,Proponent Name,887341
+vavoteresults,issagendaitemid,character varying(5),10,ISS Agenda Item ID,887341
+vavoteresults,itemdesc,character varying(258),11,Item Description,887341
+vavoteresults,ballotitemnumber,character varying(8),12,Ballot Item Number,887341
+vavoteresults,seqnumber,double precision,13,Sequence Number,887341
+vavoteresults,mgmtrec,character varying(11),14,Management Recommendation,887341
+vavoteresults,voterequirement,double precision,15,Vote Requirements,887341
+vavoteresults,meetingdate,date,16,Meeting Date,887341
+vavoteresults,agendageneraldesc,character varying(255),17,Agenda General Description,887341
+vavoteresults,itemonagendaid,double precision,18,Item On Agenda ID,887341
+vavoteresults,base,character varying(15),19,Base,887341
+vavoteresults,outstandingshare,double precision,20,Outstanding Shares,887341
+vavoteresults,votedfor,double precision,21,Vote For,887341
+vavoteresults,votedagainst,double precision,22,Vote Against,887341
+vavoteresults,votedabstain,double precision,23,Vote Abstain,887341
+vavoteresults,brokernonvote,double precision,24,Broker Non-Votes,887341
+vavoteresults,votedwithheld,double precision,25,Voted AGAINST / Voted WITHHELD,887341
+vavoteresults,votes1yr,double precision,26,Vote on Say on Pay Frequency - 1 yr,887341
+vavoteresults,votes2yr,double precision,27,Vote on Say on Pay Frequency - 2 yr,887341
+vavoteresults,votes3yr,double precision,28,Vote on Say on Pay Frequency - 3 yr,887341
+vavoteresults,voteresult,character varying(14),29,Vote Result,887341

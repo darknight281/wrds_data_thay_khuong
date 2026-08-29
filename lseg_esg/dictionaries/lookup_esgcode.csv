@@ -1,0 +1,183 @@
+﻿type_,code,desc_
+0,1,FileCode
+0,2,DataTypeCode
+0,3,TableCode
+0,4,HierarchicalCode
+0,5,Pillar Code
+0,6,Lic Flag for ESG Disclosure Regulations
+0,7,AsReported Scaling Code
+0,8,AsReported Unit Code
+1,1,RFT-ESG-Raw-Full-SchemeB-Social
+1,2,RFT-ESG-Raw-Full-SchemeB-Env
+1,3,RFT-ESG-Scores-Full
+1,4,RFT-ESG-Raw-Full-SchemeB-Gov
+2,1,Boolean
+2,2,Date
+2,3,Float
+2,4,Integer
+2,5,Money
+2,6,String
+3,1,ESGEnvDataPoint
+3,2,ESGEnvIndicator
+3,3,ESGSocDataPoint
+3,4,ESGSocIndicator
+3,5,ESGGovDataPoint
+3,6,ESGGovIndicator
+3,7,ESGScores
+3,8,ESGDnIRatings
+4,1,Data Point
+4,2,Indicator
+4,3,Category Score
+4,4,Score
+5,1,ESG Scores
+5,2,Diversity Inclusion Rating
+5,4,Environment
+5,5,Governance
+5,6,Social
+6,1,BMR
+6,2,SFDR
+6,3,Both BMR and SFDR
+7,1010066,Ones (no scaling)
+7,1010067,Thousands
+7,1010068,Millions
+7,1010069,Billions
+7,1010188,Tens
+7,1010189,Hundreds
+7,1010190,Ten Thousands
+7,1010191,Hundred Thousands
+7,1010192,Ten Millions
+7,1010193,Hundred Millions
+7,1010204,Hundred Billions
+7,1010205,Trillions
+8,509013,kilogram
+8,509014,= 7 000 grains; avoirdupois
+8,509015,= 100 kg; metric
+8,509016,= 2 000 lb; 907.1847 kg
+8,509017,= 1 000 kg
+8,509018,= 42 gal (US); petroleum
+8,509019,= 2 150.42 cu in; U.S. Dry Level
+8,509020,= 1 ft × 1 ft × 1 ft
+8,509021,= 1 m × 1 m × 1 m; SI Unit
+8,509023,= 231 cu in; U.S. Fluid
+8,509024,= 1 dm3
+8,509030,British thermal unit (International Table)
+8,509031,= 1 hp × 1 h
+8,509032,The work done when a force of one newton moves the point of its application a distance of one meter
+8,509033,= 1 000 joules
+8,509034,= 1 000 000 joules
+8,509035,= 1 000 000 000 000 joules
+8,509036,= 1 kW × 1 h
+8,509037,= 1 megaW × 1 h
+8,509038,= 1 gigaW × 1 h
+8,509039,= 1 teraW × 1 h
+8,509042,= 1 W × 1 h
+8,509043,= 100 000 BTUIT; EC
+8,509044,= 1 000 000 BTUIT
+8,509066,= a common year (365 d)
+8,509067,= 60 min
+8,509072,= 24 h
+8,509087,= 7 d
+8,509089,~ 5.8 × 106 BTU59 °F
+8,509090,= 3 1/6 gr
+8,509091,= 1/1000 Kg
+8,509092,= 2 240 lb
+8,509109,= 1 000 000 000 calIT
+8,509111,= 1 000 000 000 joules
+8,509112,= 100 L
+8,509114,= 1 000 calIT
+8,509125,Energy equivalent of a kiloliter of oil
+8,509126,the amount of energy released by burning one metric ton of crude oil approx. 42 GJ
+8,509127,"the amount of energy released by burning one metric ton of hard coal approx. 29,3 GJ"
+8,509207,41 868 000 joules
+8,1000228761,= 100 lb
+8,1000228762,Gram per Kilowatt-Hour
+8,1000315630,"= 4.181 Joule. Unit of energy or heat. The calorie is about 4.2 joules, the amount of heat needed to"
+8,1000316858,= 0.000001 cubic meter
+8,1000316863,"= 1,000,000 cubic meter"
+8,1000316864,"= 1,000 cubic meter"
+8,1000316866,= 0.001 cubic meter
+8,1000316868,1 UK bbl ~ 0.16366 cubic meter;petroleum
+8,1000316993,1 kiloliter of gasoline is approximately 740 kilograms
+8,1000317010,1 US gallon of gasoline is approximately 2.8 kilograms
+8,1000317011,1 US barrel of gasoline is approximately 117.6 kilograms
+8,1000317020,1 kiloliter of diesel is approximately 832 kilograms
+8,1000317021,1 US gallon of diesel is approximately 3.1 kilograms
+8,1000317022,mass of 1 US barrell of diesel is approximately 132.3 kilogram
+8,1000317381,energy yield for one US gallon of gasoline expressed in Lower (net) Heating Value (HHV); equivalent
+8,1000317382,energy yield for one US gallon of gasoline expressed in High (gross) Heating Value (HHV); equivalent
+8,1000317467,energy yield for one liter of gasoline expressed in High (gross) Heating Value (HHV); equivalent to
+8,1000317469,energy yield for one liter of gasoline expressed in Lower (net) Heating Value (LHV); equivalent to 3
+8,1000317471,energy yield for one US gallon of diesel expressed in High (gross) Heating Value (HHV); equivalent t
+8,1000317472,energy yield for one US gallonof diesel expressed in Lower (net) Heating Value (LHV); equivalent to
+8,1000317473,energy yield for one US Barrel (Petroleum) of diesel expressed in High (gross) Heating Value (HHV);
+8,1000317476,energy yield for one liter of diesel expressed in High (gross) Heating Value (HHV); equivalent to 38
+8,1000317477,"energy yield for one liter of diesel expressed in Lower (net) Heating Value (LHV); equivalent to 35,"
+8,1000317479,energy yield for one US gallon of biodiesel expressed in High (gross) Heating Value (HHV); equivalen
+8,1000317483,energy yield for one liter of biodiesel expressed in High (gross) Heating Value (HHV); equivalent to
+8,1000317484,energy yield for one liter of biodiesel expressed in Lower (net) Heating Value (LHV); equivalent to
+8,1000317486,energy yield for one US gallon of residual fuell expressed in High (gross) Heating Value (HHV); equi
+8,1000317488,energy yield for one US gallon of residual fuell expressed in Lower (net) Heating Value (LHV); equiv
+8,1000317491,energy yield for one liter of residual fuel expressed in High (gross) Heating Value (HHV); equivalen
+8,1000317492,energy yield for one liter of residual fuel expressed in Lower (net) Heating Value (LHV); equivalent
+8,1000317497,energy yield for one liter of methanol expressed in High (gross) Heating Value (HHV); equivalent to
+8,1000317498,energy yield for one liter of methanol expressed in Lower (net) Heating Value (LHV); equivalent to 1
+8,1000317499,energy yield for one US gallon of butane expressed in High (gross) Heating Value (HHV); equivalent t
+8,1000317500,energy yield for one US gallon of butane expressed in Lower (net) Heating Value (LHV); equivalent to
+8,1000317504,energy yield for one liter of butane expressed in High (gross) Heating Value (HHV); equivalent to 28
+8,1000317588,energy yield for one US gallon of propane expressed in High (gross) Heating Value (HHV); equivalent
+8,1000317593,energy yield for one liter of propane expressed in High (gross) Heating Value (HHV); equivalent to 2
+8,1000317594,"energy yield for one liter of butane expressed in Lower (net) Heating Value (LHV); equivalent to 23,"
+8,1000338324,energy yield of one cubic foot of natural gas; equivalent to ~1.1 million joules
+8,1000338325,energy yield of one cubic meter of hydrogen; equivalent to approximately 12 million joules
+8,1000338327,energy yield of one cubic meter of natural gas; equivalent to approximately 32 million joules
+8,1000338328,energy yield for one cubic meter of methanol; equivalent to ~15.6 gigajoules
+8,1000338333,energy yield for one cubic meter of propane; equivalent to ~ 25.3 gigajoules
+8,1000338334,energy yield for one cubic meter of butane; equivalent to ~28.6 gigajoules
+8,1000338355,energy yield for one cubic meter of aviation gasoline; equivalent to ~33.5 gigajoules
+8,1000338356,energy yield for one cubic meter of light fuel oil; equivalent to ~38.8 gigajoules
+8,1000338357,energy yield for one cubic meter of heavy fuel oil; equivalent to ~41.7 gigajoules
+8,1000338358,energy yield for one cubic meter of petroleum coke; equivalent to ~46.5 gigajoules
+8,1000338359,energy yield for one pound of steam; equivalent to ~1.1 megajoules
+8,1000338360,energy yield for one US gallon of kerosene; equivalent to ~142.2 megajoules
+8,1000338364,energy yield of one petawatt hour; equivalent to ~3.6 exajoules
+8,1000338367,energy yield for one liter of kerosene expressed in Lower (net) Heating Value (LHV); equivalent to ~
+8,1000339074,energy yield for one ton (US) of TNT; equivalent to 4.184 gigajoules
+8,1000339076,energy yield for one ton (US) of lignite; equivalent to ~13.607 gigajoules
+8,1000339077,approximate energy yield for one ton (US) of wood; equivalent to ~16.2 gigajoules
+8,1000339078,energy yield for one ton (US) of biodiesel; equivalent to ~34.3 gigajoules
+8,1000339079,energy yield for one ton (US) of uranium-235; equivalent to ~74 petajoules
+8,1000339500,
+8,1000339501,
+8,1000339502,
+8,1000339503,
+8,1000339504,
+8,1000339505,
+8,1000339506,
+8,1000339726,
+8,1000339732,energy yield for one ton (US) of gasoline expressed in Lower (net) Heating Value (LHV); equivalent t
+8,1000339733,energy yield for one ton (US) of gasoline expressed in High (gross) Heating Value (LHV); equivalent
+8,1000339734,
+8,1000339735,
+8,1000346811,energy yield for one liter of kerosene expressed in Lower (net) Heating Value (LHV); equivalent to ~
+8,1000348729,
+8,1000348732,
+8,1000348734,energy yield for one cubic meter of town gas; equivalent to ~41.1 megajoules
+8,1000348735,energy yield for one cubic meter of methane; equivalent to ~29.1 gigajoules
+8,1000348736,energy yield for one ton (US) of fuel oil; equivalent to ~40.2 gigajoules
+8,1000348737,energy yield for one ton (US) of petroleum; equivalent to ~45.2 gigajoules
+8,1000348738,energy yield for one ton (US) of propane; equivalent to ~46.9 gigajoules
+8,1000351871,
+8,1000351872,US Oil Barrels (42 US gal).
+8,1000645125,Converts to the 40 hour work week
+8,1001101705,Converts to the 8 hour work day
+8,1001314834,
+8,1001371055,
+8,1001371056,
+8,1002046981,= 1 000 000 000 000 000 joules
+8,1002076157,energy yield for one pound of steam; equivalent to ~2.2 gigajoules
+8,1002112188,energy yield of one tonne of coal coke; equivalent to approximately 28.83 gigajoules
+8,1002114783,energy yield for one tonne of aviation gasoline; equivalent to ~48.3 gigajoules
+8,1002114784,energy yield for one tonne of kerosene jet fuel; equivalent to ~45.8 gigajoules
+8,1002114785,energy yield for one tonne of naphtha jet fuel; equivalent to ~45.6 gigajoules
+8,1002114791,energy yield for one ton (US) of crude oil; equivalent to ~37.9 gigajoules
+8,1002208059,

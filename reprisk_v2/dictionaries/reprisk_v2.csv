@@ -1,0 +1,168 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+v2_company_identifiers,reprisk_id,character varying(10),1,RepRisk COMPANY ID,1021966
+v2_company_identifiers,company_name,character varying(255),2,COMPANY Name,1021966
+v2_company_identifiers,headquarters_country,character varying(255),3,Headquarters Country,1021966
+v2_company_identifiers,headquarters_country_isocode,character varying(2),4,Headquarters Country ISO Code,1021966
+v2_company_identifiers,sectors,character varying(32767),5,Sector(s),1021966
+v2_company_identifiers,url,character varying(32767),6,URL,1021966
+v2_company_identifiers,isins,character varying(32767),7,Isin(s),1021966
+v2_company_identifiers,primary_isin,character varying(12),8,Primary ISIN,1021966
+v2_company_identifiers,no_reported_risk_exposure,character varying(5),9,No reported risk exposure,1021966
+v2_metrics,reprisk_id,character varying(10),1,RepRisk COMPANY ID,2340501248
+v2_metrics,date,date,2,Date (Time Slot Name),2340501248
+v2_metrics,current_rri,integer,3,Current RRI,2340501248
+v2_metrics,trend_rri,integer,4,Trend RRI,2340501248
+v2_metrics,peak_rri,integer,5,Peak RRI,2340501248
+v2_metrics,peak_rri_date,date,6,Peak RRI Date,2340501248
+v2_metrics,reprisk_rating,character varying(3),7,RepRisk Rating,2340501248
+v2_metrics,country_sector_average,integer,8,Country-Sector Average,2340501248
+v2_metrics,principle1_human_rights,character varying(31),9,Principle 1 (Human Rights),2340501248
+v2_metrics,principle2_human_rights,character varying(31),10,Principle 2 (Human Rights),2340501248
+v2_metrics,principle3_labour,character varying(31),11,Principle 3 (Labour),2340501248
+v2_metrics,principle4_labour,character varying(31),12,Principle 4 (Labour),2340501248
+v2_metrics,principle5_labour,character varying(31),13,Principle 5 (Labour),2340501248
+v2_metrics,principle6_labour,character varying(31),14,Principle 6 (Labour),2340501248
+v2_metrics,principle7_environment,character varying(31),15,Principle 7 (Environment),2340501248
+v2_metrics,principle8_environment,character varying(31),16,Principle 8 (Environment),2340501248
+v2_metrics,principle9_environment,character varying(31),17,Principle 9 (Environment),2340501248
+v2_metrics,principle10_anti_corruption,character varying(31),18,Principle 10 (Anti-corruption),2340501248
+v2_rating,reprisk_id,character varying(10),1,RepRisk COMPANY ID,7001712640
+v2_rating,date,date,2,Date (Time Slot Name),7001712640
+v2_rating,reprisk_rating,character varying(3),3,RepRisk Rating,7001712640
+v2_rating,country_sector_average,integer,4,Country-Sector Average,7001712640
+v2_risk_incidents,reprisk_id,character varying(10),1,Reprisk Company ID,1194528
+v2_risk_incidents,story_id,integer,2,Story ID,1194528
+v2_risk_incidents,incident_date,date,3,Incident Date,1194528
+v2_risk_incidents,unsharp_incident,integer,4,Unsharp Incident,1194528
+v2_risk_incidents,related_countries,character varying(32767),5,Related Countries,1194528
+v2_risk_incidents,related_countries_codes,character varying(32767),6,Related Countries Codes,1194528
+v2_risk_incidents,severity,integer,7,Severity,1194528
+v2_risk_incidents,reach,integer,8,Reach,1194528
+v2_risk_incidents,novelty,integer,9,Novelty,1194528
+v2_risk_incidents,environment,character varying(1),10,ENVIRONMENT,1194528
+v2_risk_incidents,social,character varying(1),11,SOCIAL,1194528
+v2_risk_incidents,governance,character varying(1),12,GOVERNANCE,1194528
+v2_risk_incidents,cross_cutting,character varying(1),13,CROSS CUTTING,1194528
+v2_risk_incidents,animal_mistreatment,character varying(1),14,Animal mistreatment,1194528
+v2_risk_incidents,anti_competititve_practices,character varying(1),15,Anti-competitive practices,1194528
+v2_risk_incidents,child_labor,character varying(1),16,Child labor,1194528
+v2_risk_incidents,climate_ghg_pollution,character varying(1),17,"Climate change, GHG emissions, and global pollution",1194528
+v2_risk_incidents,controversial_prod_services,character varying(1),18,Controversial products and services,1194528
+v2_risk_incidents,money_related,character varying(1),19,"Corruption, bribery, extortion and money laundering",1194528
+v2_risk_incidents,discrimination_in_employment,character varying(1),20,Discrimination in employment,1194528
+v2_risk_incidents,executive_compensation_issues,character varying(1),21,Executive compensation issues,1194528
+v2_risk_incidents,forced_labor,character varying(1),22,Forced labor,1194528
+v2_risk_incidents,fraud,character varying(1),23,Fraud,1194528
+v2_risk_incidents,freedom_of_association,character varying(1),24,Freedom of association and collective bargaining,1194528
+v2_risk_incidents,human_rights_abuses,character varying(1),25,Human rights abuses and corporate complicity,1194528
+v2_risk_incidents,impacts_on_communities,character varying(1),26,Impacts on communities,1194528
+v2_risk_incidents,impact_on_ecosys,character varying(1),27,Impacts on ecosystems and biodiversity,1194528
+v2_risk_incidents,local_participation_issues,character varying(1),28,Local participation issues,1194528
+v2_risk_incidents,local_pollution,character varying(1),29,Local pollution,1194528
+v2_risk_incidents,misleading_communication,character varying(1),30,Misleading communication (including greenwashing),1194528
+v2_risk_incidents,occupational_health,character varying(1),31,Occupational health and safety issues,1194528
+v2_risk_incidents,other_esg_issues,character varying(1),32,Other ESG issues,1194528
+v2_risk_incidents,overuse_and_wasting,character varying(1),33,Overuse and wasting of resources,1194528
+v2_risk_incidents,poor_employment_conditions,character varying(1),34,Poor employment conditions,1194528
+v2_risk_incidents,prod_health_environ_issues,character varying(1),35,Products (health and environmental issues),1194528
+v2_risk_incidents,social_discrimination,character varying(1),36,Social discrimination,1194528
+v2_risk_incidents,supply_chain_issues,character varying(1),37,Supply chain issues,1194528
+v2_risk_incidents,tax_evasion,character varying(1),38,Tax evasion,1194528
+v2_risk_incidents,tax_optimization,character varying(1),39,Tax optimization,1194528
+v2_risk_incidents,violation_of_intl_standards,character varying(1),40,Violation of international standards,1194528
+v2_risk_incidents,violation_of_natl_legislation,character varying(1),41,Violation of national legislation,1194528
+v2_risk_incidents,waste_issues,character varying(1),42,Waste issues,1194528
+v2_risk_incidents,abusive_illegal_fishing,character varying(1),43,Abusive/Illegal fishing,1194528
+v2_risk_incidents,access_to_prod_services,character varying(1),44,Access to products and services,1194528
+v2_risk_incidents,agri_commodity_speculation,character varying(1),45,Agricultural commodity speculation,1194528
+v2_risk_incidents,airborne_pollutants,character varying(1),46,Airborne pollutants,1194528
+v2_risk_incidents,alcohol,character varying(1),47,Alcohol,1194528
+v2_risk_incidents,animal_transportation,character varying(1),48,Animal transportation,1194528
+v2_risk_incidents,arctic_drilling,character varying(1),49,Arctic drilling,1194528
+v2_risk_incidents,ai,character varying(1),50,Artificial intelligence,1194528
+v2_risk_incidents,asbestos,character varying(1),51,Asbestos,1194528
+v2_risk_incidents,automatic_semi_auto_weapons,character varying(1),52,Automatic and semi-automatic weapons,1194528
+v2_risk_incidents,biological_weapons,character varying(1),53,Biological weapons,1194528
+v2_risk_incidents,chemical_weapons,character varying(1),54,Chemical weapons,1194528
+v2_risk_incidents,cluster_munitions,character varying(1),55,Cluster munitions,1194528
+v2_risk_incidents,coal_fired_power_plants,character varying(1),56,Coal-fired power plants,1194528
+v2_risk_incidents,conflict_minerals,character varying(1),57,Conflict minerals,1194528
+v2_risk_incidents,coral_reefs,character varying(1),58,Coral reefs,1194528
+v2_risk_incidents,cyberattack,character varying(1),59,Cyberattack,1194528
+v2_risk_incidents,deep_sea_drilling,character varying(1),60,Deep sea drilling,1194528
+v2_risk_incidents,deforestation,character varying(1),61,Deforestation,1194528
+v2_risk_incidents,depleted_uranium_munitions,character varying(1),62,Depleted uranium munitions,1194528
+v2_risk_incidents,diamonds,character varying(1),63,Diamonds,1194528
+v2_risk_incidents,drones,character varying(1),64,Drones,1194528
+v2_risk_incidents,ecocide,character varying(1),65,Ecocide,1194528
+v2_risk_incidents,economic_impact,character varying(1),66,Economic impact,1194528
+v2_risk_incidents,endangered_species,character varying(1),67,Endangered species,1194528
+v2_risk_incidents,energy_management,character varying(1),68,Energy management,1194528
+v2_risk_incidents,epidemics_pandemics,character varying(1),69,Epidemics/Pandemics,1194528
+v2_risk_incidents,forest_burning,character varying(1),70,Forest burning,1194528
+v2_risk_incidents,fracking,character varying(1),71,Fracking,1194528
+v2_risk_incidents,fur,character varying(1),72,Fur and exotic animal skins,1194528
+v2_risk_incidents,gambling,character varying(1),73,Gambling,1194528
+v2_risk_incidents,gender_inequality,character varying(1),74,Gender inequality,1194528
+v2_risk_incidents,gmos,character varying(1),75,Genetically modified organisms (GMOs),1194528
+v2_risk_incidents,genocide_ethnic_cleansing,character varying(1),76,Genocide/Ethnic cleansing,1194528
+v2_risk_incidents,greenhouse_gas_emissions,character varying(1),77,Greenhouse gas (GHG) emissions,1194528
+v2_risk_incidents,greenwashing,character varying(1),78,Greenwashing,1194528
+v2_risk_incidents,health_impact,character varying(1),79,Health impact,1194528
+v2_risk_incidents,high_conserv_value_forests,character varying(1),80,High conservation value forests,1194528
+v2_risk_incidents,human_trafficking,character varying(1),81,Human trafficking,1194528
+v2_risk_incidents,hydropower_dams,character varying(1),82,Hydropower (dams),1194528
+v2_risk_incidents,illegal_logging,character varying(1),83,Illegal logging,1194528
+v2_risk_incidents,indigenous_people,character varying(1),84,Indigenous people,1194528
+v2_risk_incidents,involuntary_resettlement,character varying(1),85,Involuntary resettlement,1194528
+v2_risk_incidents,land_ecosystems,character varying(1),86,Land ecosystems,1194528
+v2_risk_incidents,land_grabbing,character varying(1),87,Land grabbing,1194528
+v2_risk_incidents,land_mines,character varying(1),88,Land mines,1194528
+v2_risk_incidents,lobbying,character varying(1),89,Lobbying,1194528
+v2_risk_incidents,marijuana_cannabis,character varying(1),90,Marijuana/Cannabis,1194528
+v2_risk_incidents,marine_coastal_ecosystems,character varying(1),91,Marine/Coastal ecosystems,1194528
+v2_risk_incidents,mercury,character varying(1),92,Mercury,1194528
+v2_risk_incidents,migrant_labor,character varying(1),93,Migrant labor,1194528
+v2_risk_incidents,money_laundering,character varying(1),94,Money laundering,1194528
+v2_risk_incidents,monocultures,character varying(1),95,Monocultures,1194528
+v2_risk_incidents,mountaintop_removal_mining,character varying(1),96,Mountaintop removal mining,1194528
+v2_risk_incidents,negligence,character varying(1),97,Negligence,1194528
+v2_risk_incidents,nuclear_power,character varying(1),98,Nuclear power,1194528
+v2_risk_incidents,nuclear_weapons,character varying(1),99,Nuclear weapons,1194528
+v2_risk_incidents,offshore_drilling,character varying(1),100,Offshore drilling,1194528
+v2_risk_incidents,oil_sands,character varying(1),101,Oil sands,1194528
+v2_risk_incidents,opioids,character varying(1),102,Opioids,1194528
+v2_risk_incidents,palm_oil,character varying(1),103,Palm oil,1194528
+v2_risk_incidents,plastics,character varying(1),104,Plastics,1194528
+v2_risk_incidents,pornography,character varying(1),105,Pornography,1194528
+v2_risk_incidents,predatory_lending,character varying(1),106,Predatory lending,1194528
+v2_risk_incidents,privacy_violations,character varying(1),107,Privacy violations,1194528
+v2_risk_incidents,protected_areas,character varying(1),108,Protected areas,1194528
+v2_risk_incidents,racism_racial_inequality,character varying(1),109,Racism/Racial inequality,1194528
+v2_risk_incidents,rare_earths,character varying(1),110,Rare earths,1194528
+v2_risk_incidents,salaries_benefits,character varying(1),111,Salaries and benefits,1194528
+v2_risk_incidents,sand_mining_dredging,character varying(1),112,Sand mining and dredging,1194528
+v2_risk_incidents,seabed_mining,character varying(1),113,Seabed mining,1194528
+v2_risk_incidents,security_services,character varying(1),114,Security services,1194528
+v2_risk_incidents,ship_breaking_scrapping,character varying(1),115,Ship breaking and scrapping,1194528
+v2_risk_incidents,social_washing,character varying(1),116,Social washing,1194528
+v2_risk_incidents,soy,character varying(1),117,Soy,1194528
+v2_risk_incidents,tax_havens,character varying(1),118,Tax havens,1194528
+v2_risk_incidents,tobacco,character varying(1),119,Tobacco,1194528
+v2_risk_incidents,wastewater_management,character varying(1),120,Wastewater management,1194528
+v2_risk_incidents,water_management,character varying(1),121,Water management,1194528
+v2_risk_incidents,water_scarcity,character varying(1),122,Water scarcity,1194528
+v2_risk_incidents,ungc_principle_1,character varying(1),123,UNGC Principle 1 (Human Rights),1194528
+v2_risk_incidents,ungc_principle_2,character varying(1),124,UNGC Principle 2 (Human Rights),1194528
+v2_risk_incidents,ungc_principle_3,character varying(1),125,UNGC Principle 3 (Labour),1194528
+v2_risk_incidents,ungc_principle_4,character varying(1),126,UNGC Principle 4 (Labour),1194528
+v2_risk_incidents,ungc_principle_5,character varying(1),127,UNGC Principle 5 (Labour),1194528
+v2_risk_incidents,ungc_principle_6,character varying(1),128,UNGC Principle 6 (Labour),1194528
+v2_risk_incidents,ungc_principle_7,character varying(1),129,UNGC Principle 7 (Environment),1194528
+v2_risk_incidents,ungc_principle_8,character varying(1),130,UNGC Principle 8 (Environment),1194528
+v2_risk_incidents,ungc_principle_9,character varying(1),131,UNGC Principle 9 (Environment),1194528
+v2_risk_incidents,ungc_principle_10,character varying(1),132,UNGC Principle 10 (Anti-corruption),1194528
+v2_wrds_company_id_table,reprisk_id,character varying(10),1,RepRisk COMPANY ID,1021966
+v2_wrds_company_id_table,company_name,character varying(255),2,COMPANY Name,1021966
+v2_wrds_company_id_table,headquarters_country_isocode,character varying(2),3,Headquarters Country ISO Code,1021966
+v2_wrds_company_id_table,primary_isin,character varying(12),4,Primary ISIN,1021966

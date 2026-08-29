@@ -1,0 +1,12 @@
+# Credentials - never commit
+.env
+
+# Downloaded data (too large for git; lives in Dropbox / regenerate from WRDS)
+*/data/*
+!*/data/.gitkeep
+*.parquet
+
+# Office/OS temp
+~$*
+Thumbs.db
+__pycache__/

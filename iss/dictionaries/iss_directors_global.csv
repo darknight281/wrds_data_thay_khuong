@@ -1,0 +1,272 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+committee_detail,person_committee_company_event_i,character varying(37),1,,8386879
+committee_detail,committee_event_id,character varying(26),2,committee event id,8386879
+committee_detail,committee_type,character varying(21),3,committee type,8386879
+committee_detail,committee_type_id,double precision,4,committee type id,8386879
+committee_detail,parent_committee_id,double precision,5,parent committee id,8386879
+committee_detail,person_company_event_id,character varying(34),6,person company event id,8386879
+committee_detail,company_event_id,character varying(23),7,company event id,8386879
+committee_detail,iss_company_id,double precision,8,iss company id,8386879
+committee_detail,iss_person_id,double precision,9,iss person id,8386879
+committee_detail,most_recent_event_yn,double precision,10,most recent event yn,8386879
+committee_detail,disclosed_commitee_name,character varying(2),11,,8386879
+committee_detail,number_of_meetings,double precision,12,number of meetings,8386879
+committee_detail,committee_function,character varying(28),13,committee function,8386879
+committee_detail,board_committee_yn,double precision,14,board committee yn,8386879
+committee_detail,temporary_committee_yn,double precision,15,temporary committee yn,8386879
+committee_detail,members_disclosed,character varying(30),16,members disclosed,8386879
+committee_detail,committee_membership_type,character varying(8),17,committee membership type,8386879
+committee_detail,mandate_type,character varying(24),18,mandate type,8386879
+committee_detail,financial_expert_yn,double precision,19,financial expert yn,8386879
+committee_detail,start_date,date,20,start date,8386879
+committee_detail,start_date_precision,character varying(12),21,start date precision,8386879
+committee_detail,end_date,date,22,end date,8386879
+committee_detail,end_date_precision,character varying(12),23,end date precision,8386879
+committee_detail,number_of_eligible_meetings,double precision,24,number of eligible meetings,8386879
+committee_detail,number_of_meetings_participated,double precision,25,number of meetings participated,8386879
+committee_detail,former_role_yn,double precision,26,former role yn,8386879
+company_diversity,company_event_id,character varying(23),1,company event id,597148
+company_diversity,from_date,date,2,from date,597148
+company_diversity,to_date,date,3,to date,597148
+company_diversity,most_recent_event_yn,double precision,4,most recent event yn,597148
+company_diversity,company_event_order_rank,double precision,5,company event order rank,597148
+company_diversity,iss_meeting_id,double precision,6,iss meeting id,597148
+company_diversity,last_meeting_date,date,7,last meeting date,597148
+company_diversity,fiscal_year,double precision,8,,597148
+company_diversity,most_recent_fy_end_date,date,9,most recent fy end date,597148
+company_diversity,data_capture_type,character varying(14),10,data capture type,597148
+company_diversity,iss_company_id,double precision,11,iss company id,597148
+company_diversity,board_size,double precision,12,board size,597148
+company_diversity,board_structure,character varying(10),13,board structure,597148
+company_diversity,eca_company_year_id,character varying(26),14,eca company year id,597148
+company_diversity,event_added_date,date,15,event added date,597148
+company_diversity,event_modified_date,date,16,event modified date,597148
+company_diversity,event_correction_date,date,17,event correction date,597148
+company_diversity,event_completed_yn,double precision,18,event completed yn,597148
+company_diversity,event_completed_date,date,19,event completed date,597148
+company_diversity,gender_diversity_statement_detai,character varying(29),20,,597148
+company_diversity,board_gender_diversity_policy_yn,character varying(16),21,board gender diversity policy yn,597148
+company_diversity,board_gender_diversity_goal_num,double precision,22,board gender diversity goal num,597148
+company_diversity,board_gender_diversity_goal_pct,double precision,23,board gender diversity goal pct,597148
+company_diversity,board_gender_diversity_statement,character varying(5),24,,597148
+company_diversity,exec_gender_diversity_policy_yn,character varying(5),25,exec gender diversity policy yn,597148
+company_diversity,exec_gender_diversity_goal_num,double precision,26,exec gender diversity goal num,597148
+company_diversity,exec_gender_diversity_goal_pct,double precision,27,exec gender diversity goal pct,597148
+company_diversity,exec_gender_diversity_statement_,character varying(5),28,,597148
+company_diversity,mgmt_gender_diversity_statement_,character varying(5),29,,597148
+company_diversity,emp_gender_diversity_statement_y,character varying(5),30,,597148
+company_diversity,diversity_statement,character varying(2),31,diversity statement,597148
+company_diversity,diversity_statement_source,character varying(2),32,diversity statement source,597148
+company_diversity,number_women_directors,double precision,33,number women directors,597148
+company_diversity,pct_women_directors,double precision,34,pct women directors,597148
+company_diversity,number_men_directors,double precision,35,number men directors,597148
+company_diversity,pct_men_directors,double precision,36,pct men directors,597148
+company_diversity,num_women_neos,double precision,37,num women neos,597148
+company_diversity,num_men_neos,double precision,38,num men neos,597148
+company_diversity,num_directors_leadership_exp,double precision,39,num directors leadership exp,597148
+company_diversity,num_directors_ceo_exp,double precision,40,num directors ceo exp,597148
+company_diversity,num_directors_cfo_exp,double precision,41,num directors cfo exp,597148
+company_diversity,num_directors_international_exp,double precision,42,num directors international exp,597148
+company_diversity,num_directors_industry_exp,double precision,43,num directors industry exp,597148
+company_diversity,num_directors_technology_exp,double precision,44,num directors technology exp,597148
+company_diversity,num_directors_risk_exp,double precision,45,num directors risk exp,597148
+company_diversity,num_directors_government_exp,double precision,46,num directors government exp,597148
+company_diversity,num_directors_audit_exp,double precision,47,num directors audit exp,597148
+company_diversity,num_directors_sales_exp,double precision,48,num directors sales exp,597148
+company_diversity,num_directors_academic_exp,double precision,49,num directors academic exp,597148
+company_diversity,num_directors_legal_exp,double precision,50,num directors legal exp,597148
+company_diversity,num_directors_human_resources_ex,double precision,51,,597148
+company_diversity,num_directors_strategic_planning,double precision,52,,597148
+company_diversity,num_directors_operations_exp,double precision,53,num directors operations exp,597148
+company_diversity,num_directors_mergers_acquisitio,double precision,54,,597148
+company_diversity,num_directors_csr_sri_exp,double precision,55,num directors csr sri exp,597148
+company_diversity,median_director_age,double precision,56,median director age,597148
+company_diversity,stdev_director_age,double precision,57,stdev director age,597148
+company_diversity,median_director_tenure,double precision,58,median director tenure,597148
+company_diversity,stdev_director_tenure,double precision,59,stdev director tenure,597148
+company_diversity,pct_board_tenure_gt_9_yrs,double precision,60,pct board tenure gt 9 yrs,597148
+company_diversity,pct_board_tenure_lt_6_yrs,double precision,61,pct board tenure lt 6 yrs,597148
+company_diversity,controlled_company_yn,double precision,62,controlled company yn,597148
+company_diversity,controlling_entity_group_name,character varying(2),63,controlling entity group name,597148
+company_diversity,pct_voting_power_controlling_ent,double precision,64,,597148
+company_diversity,pct_economic_ownership_controlli,double precision,65,,597148
+company_diversity,pct_voting_power_directors_offic,double precision,66,,597148
+company_diversity,num_board_meetings,double precision,67,num board meetings,597148
+company_diversity,num_board_meetings_excld_mgmt,double precision,68,num board meetings excld mgmt,597148
+company_diversity,board_can_meet_without_mgmt_yne,double precision,69,board can meet without mgmt yne,597148
+company_diversity,dirs_not_elected_by_stock_class_,double precision,70,,597148
+company_diversity,tenure_policy_years,double precision,71,tenure policy years,597148
+company_diversity,tenure_policy_waive_yn,double precision,72,tenure policy waive yn,597148
+company_diversity,retirement_policy_age,double precision,73,retirement policy age,597148
+company_diversity,retirement_policy_waive_yn,double precision,74,retirement policy waive yn,597148
+company_diversity,annual_performance_evaluation,character varying(75),75,annual performance evaluation,597148
+company_diversity,has_lead_director_yn,double precision,76,has lead director yn,597148
+company_diversity,has_non_employee_chair_yn,double precision,77,has non employee chair yn,597148
+company_diversity,audit_comm,character varying(6),78,audit comm,597148
+company_diversity,nominating_comm,character varying(6),79,nominating comm,597148
+company_diversity,compensation_comm,character varying(6),80,compensation comm,597148
+company_diversity,governance_comm,character varying(6),81,governance comm,597148
+company_diversity,risk_comm,character varying(6),82,risk comm,597148
+company_diversity,health_safety_comm,character varying(6),83,health safety comm,597148
+company_diversity,sustainability_comm,character varying(6),84,sustainability comm,597148
+director_roles,co_person_id,character varying(23),1,co person id,4906076
+director_roles,person_company_event_id,character varying(34),2,person company event id,4906076
+director_roles,iss_company_id,double precision,3,iss company id,4906076
+director_roles,person_most_recent_event_yn,double precision,4,person most recent event yn,4906076
+director_roles,directorship_most_recent_yn,double precision,5,directorship most recent yn,4906076
+director_roles,directorship_event_order_rank,double precision,6,directorship event order rank,4906076
+director_roles,person_first_event_yn,double precision,7,person first event yn,4906076
+director_roles,iss_person_id,double precision,8,iss person id,4906076
+director_roles,association_type,character varying(10),9,association type,4906076
+director_roles,include_in_board_stats_yn,double precision,10,include in board stats yn,4906076
+director_roles,age,double precision,11,age,4906076
+director_roles,ceo_yn,double precision,12,ceo yn,4906076
+director_roles,eca_person_year_id,character varying(39),13,eca person year id,4906076
+director_roles,has_iss_affiliation_yn,double precision,14,has iss affiliation yn,4906076
+director_roles,iss_affiliation_classification,character varying(14),15,iss affiliation classification,4906076
+director_roles,company_affiliation_classificati,character varying(6),16,,4906076
+director_roles,director_start_date,date,17,director start date,4906076
+director_roles,director_start_date_precision,character varying(12),18,director start date precision,4906076
+director_roles,computed_tenure,double precision,19,computed tenure,4906076
+director_roles,iss_tenure,double precision,20,iss tenure,4906076
+director_roles,leadership_role,character varying(20),21,leadership role,4906076
+director_roles,founder_yn,double precision,22,founder yn,4906076
+director_roles,founder_type,character varying(37),23,founder type,4906076
+director_roles,board_chair_yn,double precision,24,board chair yn,4906076
+director_roles,lead_director_yn,double precision,25,lead director yn,4906076
+director_roles,interim_ceo_yn,double precision,26,interim ceo yn,4906076
+director_roles,executive_yn,double precision,27,executive yn,4906076
+director_roles,independent_yn,double precision,28,independent yn,4906076
+director_roles,audit_committee_role,character varying(8),29,audit committee role,4906076
+director_roles,nominating_committee_role,character varying(8),30,nominating committee role,4906076
+director_roles,compensation_committee_role,character varying(8),31,compensation committee role,4906076
+director_roles,governance_committee_role,character varying(8),32,governance committee role,4906076
+director_roles,risk_committee_role,character varying(8),33,risk committee role,4906076
+director_roles,health_safety_committee_role,character varying(8),34,health safety committee role,4906076
+director_roles,sustainability_committee_role,character varying(8),35,sustainability committee role,4906076
+director_roles,executive_title,character varying(5),36,executive title,4906076
+director_roles,nominee_type,character varying(17),37,nominee type,4906076
+director_roles,permitted_to_own_shares_yn,double precision,38,permitted to own shares yn,4906076
+director_roles,num_shares_held,double precision,39,num shares held,4906076
+director_roles,num_exercisable_options,double precision,40,num exercisable options,4906076
+director_roles,num_deferred_share_units,double precision,41,num deferred share units,4906076
+director_roles,num_full_value_awards,double precision,42,num full value awards,4906076
+director_roles,num_op_units,double precision,43,num op units,4906076
+director_roles,pct_voting_power,double precision,44,pct voting power,4906076
+director_roles,pct_economic_ownership,double precision,45,pct economic ownership,4906076
+director_roles,monetary_value_of_shares,double precision,46,monetary value of shares,4906076
+director_roles,iss_item_on_agenda_id,double precision,47,iss item on agenda id,4906076
+director_roles,vote_result,character varying(11),48,vote result,4906076
+director_roles,vote_standard,double precision,49,vote standard,4906076
+director_roles,vote_base,character varying(17),50,vote base,4906076
+director_roles,votes_for,double precision,51,votes for,4906076
+director_roles,votes_against,double precision,52,votes against,4906076
+director_roles,votes_abstain,double precision,53,votes abstain,4906076
+director_roles,support_for_against,double precision,54,support for against,4906076
+director_roles,support_for_against_abstain,double precision,55,support for against abstain,4906076
+director_roles,vote_result_collected_date,date,56,vote result collected date,4906076
+director_roles,prof_service_affiliation_yn,double precision,57,prof service affiliation yn,4906076
+director_roles,prof_service_value_usd,double precision,58,prof service value usd,4906076
+director_roles,transactional_service_affiliatio,double precision,59,,4906076
+director_roles,transactional_service_value_usd,double precision,60,transactional service value usd,4906076
+director_roles,num_transactional_services,double precision,61,num transactional services,4906076
+director_roles,value_of_services_total,double precision,62,value of services total,4906076
+director_roles,value_of_services_pct_recipient_,double precision,63,,4906076
+director_roles,severance_date,date,64,severance date,4906076
+director_roles,severance_date_precision,character varying(9),65,severance date precision,4906076
+director_roles,significant_shareholder_yne,double precision,66,significant shareholder yne,4906076
+director_roles,shareholder_representative_yne,double precision,67,shareholder representative yne,4906076
+director_roles,relationship_to_significant_shar,character varying(55),68,,4906076
+director_roles,name_of_shareholder,character varying(2),69,name of shareholder,4906076
+director_roles,pct_voting_power_of_shareholder,double precision,70,pct voting power of shareholder,4906076
+director_roles,pct_ownership_of_shareholder,double precision,71,pct ownership of shareholder,4906076
+director_roles,shareholder_affiliate_yne,double precision,72,shareholder affiliate yne,4906076
+director_roles,direct_owner_yn,double precision,73,direct owner yn,4906076
+director_roles,top_five_most_highly_paid_yne,double precision,74,top five most highly paid yne,4906076
+director_roles,board_attest_affiliation_yne,double precision,75,board attest affiliation yne,4906076
+director_roles,comp_committee_interlock_yne,double precision,76,comp committee interlock yne,4906076
+director_roles,designated_director_yne,double precision,77,designated director yne,4906076
+director_roles,employee_rep_yne,double precision,78,employee rep yne,4906076
+director_roles,employee_shareholder_rep_yne,double precision,79,employee shareholder rep yne,4906076
+director_roles,former_ceo_yne,double precision,80,former ceo yne,4906076
+director_roles,former_interim_ceo_yne,double precision,81,former interim ceo yne,4906076
+director_roles,former_employee_yne,double precision,82,former employee yne,4906076
+director_roles,former_parent_relationship,character varying(1),83,former parent relationship,4906076
+director_roles,government_representative_yne,double precision,84,government representative yne,4906076
+director_roles,board_interlock_yne,double precision,85,board interlock yne,4906076
+director_roles,joint_venture_yne,double precision,86,joint venture yne,4906076
+director_roles,party_to_voting_agreement_yne,double precision,87,party to voting agreement yne,4906076
+director_roles,related_to_current_or_former_emp,double precision,88,,4906076
+director_roles,performance_based_compensation_y,double precision,89,,4906076
+director_roles,other_affiliation_yne,double precision,90,other affiliation yne,4906076
+director_roles,num_shares_pledged,double precision,91,num shares pledged,4906076
+director_roles,pledged_as_of_date,date,92,pledged as of date,4906076
+director_roles,pledging_source,character varying(2),93,pledging source,4906076
+director_roles,overboarded_yn,double precision,94,overboarded yn,4906076
+director_roles,overboarded_computed_yn,double precision,95,overboarded computed yn,4906076
+director_roles,num_public_boards,double precision,96,num public boards,4906076
+director_roles,num_public_boards_chair,double precision,97,num public boards chair,4906076
+director_roles,num_public_boards_raw,double precision,98,num public boards raw,4906076
+director_roles,num_public_boards_chair_raw,double precision,99,num public boards chair raw,4906076
+director_roles,num_mandates,double precision,100,num mandates,4906076
+director_roles,ceo_another_company_yn,double precision,101,ceo another company yn,4906076
+director_roles,psm_leadership_yne,double precision,102,psm leadership yne,4906076
+director_roles,psm_ceo_yne,double precision,103,psm ceo yne,4906076
+director_roles,psm_cfo_yne,double precision,104,psm cfo yne,4906076
+director_roles,psm_international_yne,double precision,105,psm international yne,4906076
+director_roles,psm_industry_yne,double precision,106,psm industry yne,4906076
+director_roles,psm_financial_yne,double precision,107,psm financial yne,4906076
+director_roles,psm_technology_yne,double precision,108,psm technology yne,4906076
+director_roles,psm_risk_yne,double precision,109,psm risk yne,4906076
+director_roles,psm_government_yne,double precision,110,psm government yne,4906076
+director_roles,psm_audit_yne,double precision,111,psm audit yne,4906076
+director_roles,psm_sales_yne,double precision,112,psm sales yne,4906076
+director_roles,psm_academic_yne,double precision,113,psm academic yne,4906076
+director_roles,psm_legal_yne,double precision,114,psm legal yne,4906076
+director_roles,psm_human_resources_yne,double precision,115,psm human resources yne,4906076
+director_roles,psm_strategic_planning_yne,double precision,116,psm strategic planning yne,4906076
+director_roles,psm_operations_yne,double precision,117,psm operations yne,4906076
+director_roles,psm_mergers_acquisitions_yne,double precision,118,psm mergers acquisitions yne,4906076
+director_roles,psm_csr_sri_yne,double precision,119,psm csr sri yne,4906076
+director_roles,psm_other_skills,character varying(2),120,psm other skills,4906076
+person_ethnicity,iss_person_id,double precision,1,iss person id,449161
+person_ethnicity,person_cik,character varying(12),2,person cik,449161
+person_ethnicity,first_name,character varying(65),3,first name,449161
+person_ethnicity,last_name,character varying(61),4,last name,449161
+person_ethnicity,middle_name,character varying(38),5,middle name,449161
+person_ethnicity,person_ethnicity,character varying(40),6,person ethnicity,449161
+person_ethnicity,person_ethnicity_2,character varying(40),7,person ethnicity 2,449161
+person_ethnicity,person_ethnicity_3,character varying(40),8,person ethnicity 3,449161
+person_ethnicity,person_ethnicity_code,character varying(5),9,person ethnicity code,449161
+person_ethnicity,person_ethnicity_code_2,character varying(5),10,person ethnicity code 2,449161
+person_ethnicity,person_ethnicity_code_3,character varying(5),11,person ethnicity code 3,449161
+person_ethnicity,gender,character varying(5),12,gender,449161
+person_ethnicity,birth_date,date,13,birth date,449161
+person_ethnicity,birth_date_precision,character varying(12),14,birth date precision,449161
+person_ethnicity,person_updated_date,date,15,person updated date,449161
+person_ethnicity,deceased_yn,character varying(1),16,deceased yn,449161
+person_ethnicity,deceased_date,date,17,deceased date,449161
+symbology,iss_company_id,double precision,1,iss company id,38715
+symbology,company_name,character varying(75),2,company name,38715
+symbology,iss_country,character varying(5),3,iss country,38715
+symbology,entity_type_code,character varying(5),4,entity type code,38715
+symbology,entity_status_code,character varying(3),5,entity status code,38715
+symbology,cusip,character varying(11),6,cusip,38715
+symbology,isin,character varying(14),7,isin,38715
+symbology,ticker,character varying(22),8,ticker,38715
+symbology,sedol,character varying(9),9,sedol,38715
+symbology,gvkey,character varying(8),10,gvkey,38715
+symbology,iid,character varying(5),11,iid,38715
+symbology,cik,character varying(12),12,cik,38715
+symbology,gics_8_code,character varying(10),13,gics 8 code,38715
+symbology,gics_sub_industry,character varying(57),14,gics sub industry,38715
+symbology,ipo_date,date,15,ipo date,38715
+symbology,delisted_reason,character varying(86),16,delisted reason,38715
+symbology,delisted_date,date,17,delisted date,38715
+symbology,primary_exchange,character varying(38),18,primary exchange,38715
+symbology,country_of_incorporation,character varying(5),19,country of incorporation,38715
+symbology,state_of_incorporation,character varying(22),20,state of incorporation,38715
+symbology,country_of_address,character varying(5),21,country of address,38715
+symbology,state_of_address,character varying(22),22,state of address,38715
+symbology,msa_name,character varying(56),23,msa name,38715
+symbology,hq_address,character varying(111),24,hq address,38715

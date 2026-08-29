@@ -1,0 +1,220 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+company_reference,eca_company_year_id,character varying(26),1,eca company year id,151127
+company_reference,iss_company_id,double precision,2,iss company id,151127
+company_reference,company_name,character varying(63),3,company name,151127
+company_reference,iss_country,character varying(5),4,iss country,151127
+company_reference,entity_type_code,character varying(5),5,entity type code,151127
+company_reference,entity_status_code,character varying(3),6,entity status code,151127
+company_reference,cusip,character varying(11),7,cusip,151127
+company_reference,isin,character varying(14),8,isin,151127
+company_reference,ticker,character varying(22),9,ticker,151127
+company_reference,sedol,character varying(9),10,sedol,151127
+company_reference,gvkey,character varying(8),11,gvkey,151127
+company_reference,iid,character varying(5),12,iid,151127
+company_reference,gics_8_code,character varying(10),13,gics 8 code,151127
+company_reference,gics_sub_industry,character varying(57),14,gics sub industry,151127
+company_reference,market_methodology_id,double precision,15,market methodology id,151127
+company_reference,market_methodology,character varying(6),16,market methodology,151127
+company_reference,fiscal_year,double precision,17,fiscal year,151127
+company_reference,fiscal_year_id,double precision,18,fiscal year id,151127
+company_reference,fy_end_date,date,19,fy end date,151127
+company_reference,fy_start_date,date,20,fy start date,151127
+company_reference,fy_start_date_collected,date,21,fy start date collected,151127
+company_reference,fiscal_year_order,double precision,22,fiscal year order,151127
+company_reference,most_recent_fy,double precision,23,most recent fy,151127
+company_reference,has_pay_data_yn,double precision,24,has pay data yn,151127
+company_reference,meeting_id,double precision,25,meeting id,151127
+company_reference,meeting_date,date,26,meeting date,151127
+company_reference,meeting_profile_added_date,date,27,meeting profile added date,151127
+company_reference,meeting_profile_completed_date,date,28,meeting profile completed date,151127
+company_reference,meeting_research_delivered_date,date,29,meeting research delivered date,151127
+company_reference,vote_results_collected_date,date,30,vote results collected date,151127
+company_reference,first_meeting_date,date,31,first meeting date,151127
+company_reference,effective_date,date,32,effective date,151127
+company_reference,snap_date_added,date,33,snap date added,151127
+company_reference,snap_date_modified,date,34,snap date modified,151127
+company_reference,msop_status,character varying(24),35,msop status,151127
+company_reference,msop_vote_support,double precision,36,msop vote support,151127
+company_reference,pfp_has_test_yn,double precision,37,pfp has test yn,151127
+company_reference,pfp_overall_quant_concern,character varying(8),38,pfp overall quant concern,151127
+company_reference,pfp_initial_quant_concern,character varying(8),39,pfp initial quant concern,151127
+company_reference,pfp_fin_perf_assessment_score,double precision,40,pfp fin perf assessment score,151127
+company_reference,pfp_fin_perf_assessment_concern,character varying(16),41,pfp fin perf assessment concern,151127
+company_reference,pfp_rda_score,double precision,42,pfp rda score,151127
+company_reference,pfp_rda_concern,character varying(16),43,pfp rda concern,151127
+company_reference,pfp_mom_score,double precision,44,pfp mom score,151127
+company_reference,pfp_mom_concern,character varying(16),45,pfp mom concern,151127
+company_reference,pfp_pta_score,double precision,46,pfp pta score,151127
+company_reference,pfp_pta_concern,character varying(16),47,pfp pta concern,151127
+company_reference,ceo_non_cic_estimated_severance,double precision,48,ceo non cic estimated severance,151127
+company_reference,ceo_cic_potential_severance,double precision,49,ceo cic potential severance,151127
+company_reference,say_on_pay_frequency,character varying(11),50,say on pay frequency,151127
+company_reference,sop_frequency_adopted_year,double precision,51,SOP frequency adopted year,151127
+company_reference,ceo_stock_ownership_guidelines,character varying(29),52,ceo stock ownership guidelines,151127
+company_reference,ceo_stock_ownership_reqs,double precision,53,ceo stock ownership reqs,151127
+company_reference,exec_stock_ownership_reqs,double precision,54,exec stock ownership reqs,151127
+company_reference,comp_policy_prohibit_hedging_yn,character varying(16),55,comp policy prohibit hedging yn,151127
+company_reference,policy_divs_unearned_perf_shares,character varying(16),56,policy divs unearned perf shares,151127
+company_reference,comp_policy_loans_to_executives,character varying(62),57,comp policy loans to executives,151127
+company_reference,comp_policy_clawback_equity_yn,character varying(4),58,comp policy clawback equity yn,151127
+company_reference,comp_policy_clawback_policy,character varying(15),59,comp policy clawback policy,151127
+company_reference,ceo_perk_aircraft_payment,double precision,60,ceo perk aircraft payment,151127
+company_reference,ceo_perk_aircraft_gross_up,double precision,61,ceo perk aircraft gross up,151127
+company_reference,ceo_perk_car_payment,double precision,62,ceo perk car payment,151127
+company_reference,ceo_perk_car_gross_up,double precision,63,ceo perk car gross up,151127
+company_reference,ceo_perk_life_insurance_payment,double precision,64,ceo perk life insurance payment,151127
+company_reference,ceo_perk_life_insurance_gross_up,double precision,65,ceo perk life insurance gross up,151127
+company_reference,ceo_perk_fin_plan_payment,double precision,66,ceo perk fin plan payment,151127
+company_reference,ceo_perk_finl_plan_gross_up,double precision,67,ceo perk finl plan gross up,151127
+company_reference,ceo_perk_home_security_payment,double precision,68,ceo perk home security payment,151127
+company_reference,ceo_perk_home_security_gross_up,double precision,69,ceo perk home security gross up,151127
+company_reference,ceo_perk_lt_housing_payment,double precision,70,ceo perk LT housing payment,151127
+company_reference,ceo_perk_lt_housing_gross_up,double precision,71,ceo perk LT housing gross up,151127
+company_reference,ceo_perk_relocation_payment,double precision,72,ceo perk relocation payment,151127
+company_reference,ceo_perk_relocation_gross_up,double precision,73,ceo perk relocation gross up,151127
+company_reference,ceo_perquisite_allowance,double precision,74,ceo perquisite allowance,151127
+compensation_metrics,eca_metric_id,character varying(40),1,,548665
+compensation_metrics,eca_company_year_id,character varying(26),2,eca company year id,548665
+compensation_metrics,iss_company_id,double precision,3,ISS Company ID,548665
+compensation_metrics,fiscal_year,double precision,4,fiscal year,548665
+compensation_metrics,incentive_plan,character varying(8),5,incentive plan,548665
+compensation_metrics,incentive_plan_id,double precision,6,incentive plan id,548665
+compensation_metrics,award_type,character varying(17),7,award type,548665
+compensation_metrics,disclosure_level,character varying(37),8,disclosure level,548665
+compensation_metrics,disclosed_metric_name,character varying(816),9,disclosed metric name,548665
+compensation_metrics,overall_metric_type,character varying(39),10,overall metric type,548665
+compensation_metrics,benchmark_type,character varying(10),11,benchmark type,548665
+compensation_metrics,goal_threshold,character varying(512),12,goal threshold,548665
+compensation_metrics,goal_target,character varying(2462),13,goal target,548665
+compensation_metrics,goal_maximum,character varying(542),14,goal maximum,548665
+compensation_metrics,goal_actual,character varying(3875),15,goal actual,548665
+compensation_metrics,performance_cycle_disclosure_tim,character varying(17),16,,548665
+compensation_metrics,performance_cycle_note,character varying(59),17,performance cycle note,548665
+compensation_metrics,metric_weight,double precision,18,metric weight,548665
+compensation_metrics,metric_itemized_part_id,double precision,19,metric itemized part id,548665
+compensation_metrics,metric_type_itemized,character varying(39),20,metric type itemized,548665
+compensation_metrics,date_added,timestamp without time zone,21,date added,548665
+compensation_metrics,date_modified,timestamp without time zone,22,date modified,548665
+granted_awards,eca_grant_id,character varying(52),1,eca grant id,687426
+granted_awards,eca_person_year_id,character varying(39),2,eca person year id,687426
+granted_awards,iss_static_exec_year_id,double precision,3,iss static exec year id,687426
+granted_awards,iss_person_id,double precision,4,iss person id,687426
+granted_awards,eca_company_year_id,character varying(26),5,eca company year id,687426
+granted_awards,iss_company_id,double precision,6,iss company id,687426
+granted_awards,market_methodology_id,double precision,7,market methodology id,687426
+granted_awards,eca_components_of_pay_id,character varying(43),8,eca components of pay id,687426
+granted_awards,pay_element_id,double precision,9,pay element id,687426
+granted_awards,pay_element_name,character varying(20),10,pay element name,687426
+granted_awards,grant_date,date,11,grant date,687426
+granted_awards,currency,character varying(5),12,currency,687426
+granted_awards,disclosed_award_value,double precision,13,disclosed award value,687426
+granted_awards,iss_award_value,double precision,14,iss award value,687426
+granted_awards,number_of_units,double precision,15,number of units,687426
+granted_awards,grant_date_stock_price,double precision,16,grant date stock price,687426
+granted_awards,award_exercise_price,double precision,17,award exercise price,687426
+granted_awards,iss_blk_scholes_option_value,character varying(1),18,iss blk scholes option value,687426
+granted_awards,iss_blk_scholes_risk_free_rate,character varying(1),19,iss blk scholes risk free rate,687426
+granted_awards,iss_blk_scholes_volatility,character varying(1),20,iss blk scholes volatility,687426
+granted_awards,iss_blk_scholes_dividend,character varying(1),21,iss blk scholes dividend,687426
+granted_awards,award_expiration_yrs,double precision,22,award expiration yrs,687426
+granted_awards,award_expiration_date,character varying(1),23,award expiration date,687426
+granted_awards,grant_reason,character varying(22),24,grant reason,687426
+granted_awards,award_type,character varying(20),25,award type,687426
+granted_awards,loan_funded_yne,double precision,26,loan funded yne,687426
+granted_awards,deferred_shares_yne,double precision,27,deferred shares yne,687426
+granted_awards,matching_shares_yne,double precision,28,matching shares yne,687426
+granted_awards,vesting_style,character varying(5),29,vesting style,687426
+granted_awards,pct_award_per_tranche_vest,character varying(1),30,pct award per tranche vest,687426
+granted_awards,first_vesting_date,date,31,first vesting date,687426
+granted_awards,last_vesting_date,date,32,last vesting date,687426
+granted_awards,vesting_period,character varying(1),33,vesting period,687426
+granted_awards,performance_based_yn,double precision,34,performance based yn,687426
+granted_awards,performance_period,double precision,35,performance period,687426
+granted_awards,performance_metrics,character varying(5),36,performance metrics,687426
+granted_awards,performance_period_start,date,37,performance period start,687426
+granted_awards,performance_period_end,date,38,performance period end,687426
+granted_awards,payout_unit_type,character varying(5),39,payout unit type,687426
+granted_awards,payout_threshold,double precision,40,payout threshold,687426
+granted_awards,payout_target,double precision,41,payout target,687426
+granted_awards,payout_maximum,double precision,42,payout maximum,687426
+granted_awards,mega_grant_yrs_to_annualize,double precision,43,mega grant yrs to annualize,687426
+granted_awards,share_price_definition,character varying(102),44,share price definition,687426
+granted_awards,has_emea_detail_yne,double precision,45,has emea detail yne,687426
+person_pay,eca_person_year_id,character varying(39),1,eca person year id,2074477
+person_pay,eca_company_year_id,character varying(26),2,eca company year id,2074477
+person_pay,fiscal_year,double precision,3,fiscal year,2074477
+person_pay,iss_company_id,double precision,4,iss company id,2074477
+person_pay,iss_person_id,double precision,5,iss person id,2074477
+person_pay,iss_static_exec_year_id,double precision,6,iss static exec year id,2074477
+person_pay,person_cik,character varying(9),7,person cik,2074477
+person_pay,gender,character varying(5),8,gender,2074477
+person_pay,birth_date,date,9,birth date,2074477
+person_pay,birth_date_precision,character varying(12),10,birth date precision,2074477
+person_pay,first_name,character varying(41),11,first name,2074477
+person_pay,middle_name,character varying(33),12,middle name,2074477
+person_pay,last_name,character varying(34),13,last name,2074477
+person_pay,ceo_yn,double precision,14,ceo yn,2074477
+person_pay,disclosed_title,character varying(158),15,disclosed title,2074477
+person_pay,iss_title,character varying(60),16,iss title,2074477
+person_pay,role_start_date,date,17,role start date,2074477
+person_pay,role_end_date,date,18,role end date,2074477
+person_pay,emp_agree_person_is_covered_yn,double precision,19,emp agree person is covered yn,2074477
+person_pay,emp_agreement_as_of_date,date,20,emp agreement as of date,2074477
+person_pay,emp_agreement_collected_date,date,21,emp agreement collected date,2074477
+person_pay,emp_agreement_exists_yn,double precision,22,emp agreement exists yn,2074477
+person_pay,emp_agreement_length,double precision,23,emp agreement length,2074477
+person_pay,emp_agreement_notice_period,double precision,24,emp agreement notice period,2074477
+person_pay,emp_agreement_renewal_type,character varying(12),25,emp agreement renewal type,2074477
+person_pay,emp_agree_eqty_trtmnt_terminate,character varying(57),26,emp agree eqty trtmnt terminate,2074477
+person_pay,emp_agree_sev_as_mult_of_salary,double precision,27,emp agree sev as mult of salary,2074477
+person_pay,emp_cic_agreement_exists_yn,double precision,28,emp cic agreement exists yn,2074477
+person_pay,emp_cic_agreement_multiple_basis,character varying(39),29,emp cic agreement multiple basis,2074477
+person_pay,emp_cic_agreement_trigger,character varying(25),30,emp cic agreement trigger,2074477
+person_pay,emp_cic_agreement_excise_tax,character varying(148),31,emp cic agreement excise tax,2074477
+person_pay,emp_cic_agree_ex_tax_agree_date,date,32,emp cic agree ex tax agree date,2074477
+person_pay,pay_ratio_currency,character varying(5),33,pay ratio currency,2074477
+person_pay,pay_ratio_total_ceo_pay,double precision,34,pay ratio total ceo pay,2074477
+person_pay,pay_ratio_calcd_employee_pay,double precision,35,pay ratio calcd employee pay,2074477
+person_pay,pay_ratio_calcd_emp_pay_meth,character varying(9),36,pay ratio calcd emp pay meth,2074477
+person_pay,pay_ratio_as_disclosed,double precision,37,pay ratio as disclosed,2074477
+person_pay,comp_currency,character varying(5),38,comp currency,2074477
+person_pay,disclosed_total_comp,double precision,39,disclosed total comp,2074477
+person_pay,iss_total_comp,double precision,40,iss total comp,2074477
+person_pay,role_annualization_factor,double precision,41,role annualization factor,2074477
+person_pay,eca_components_of_pay_id,character varying(43),42,eca components of pay id,2074477
+person_pay,pay_element_id,double precision,43,pay element id,2074477
+person_pay,pay_element_name,character varying(40),44,pay element name,2074477
+person_pay,pay_element_currency,character varying(5),45,pay element currency,2074477
+person_pay,disclosed_total_value,double precision,46,disclosed total value,2074477
+person_pay,iss_total_value,double precision,47,iss total value,2074477
+person_pay,market_methodology_id,double precision,48,market methodology id,2074477
+vested_awards,eca_vest_id,character varying(52),1,eca vest id,166272
+vested_awards,eca_person_year_id,character varying(39),2,eca person year id,166272
+vested_awards,iss_static_exec_year_id,double precision,3,iss static exec year id,166272
+vested_awards,iss_person_id,double precision,4,iss person id,166272
+vested_awards,eca_company_year_id,character varying(26),5,eca company year id,166272
+vested_awards,iss_company_id,double precision,6,iss company id,166272
+vested_awards,market_methodology_id,double precision,7,market methodology id,166272
+vested_awards,eca_components_of_pay_id,character varying(5),8,eca components of pay id,166272
+vested_awards,pay_element_id,double precision,9,pay element id,166272
+vested_awards,pay_element_name,character varying(26),10,pay element name,166272
+vested_awards,eca_grant_id,character varying(52),11,eca grant id,166272
+vested_awards,currency,character varying(5),12,currency,166272
+vested_awards,market_price_vest_date,double precision,13,market price vest date,166272
+vested_awards,share_price_definition,character varying(534),14,share price definition,166272
+vested_awards,disclosed_total_value,double precision,15,disclosed total value,166272
+vested_awards,iss_total_value,character varying(1),16,iss total value,166272
+vested_awards,grant_date_precision,character varying(12),17,grant date precision,166272
+vested_awards,grant_date,date,18,grant date,166272
+vested_awards,target_vest_date,date,19,target vest date,166272
+vested_awards,target_shares_vested,double precision,20,target shares vested,166272
+vested_awards,actual_vest_date_precision,character varying(12),21,actual vest date precision,166272
+vested_awards,actual_vest_date,date,22,actual vest date,166272
+vested_awards,actual_shares_vested,double precision,23,actual shares vested,166272
+vested_awards,has_grant_mapped_yn,double precision,24,has grant mapped yn,166272
+vested_awards,performance_based_yn,double precision,25,performance based yn,166272
+vested_awards,matching_shares_yne,double precision,26,matching shares yne,166272
+vested_awards,award_exercise_price,double precision,27,award exercise price,166272
+vested_awards,award_expiration_yrs,double precision,28,award expiration yrs,166272
+vested_awards,award_expiration_date,date,29,award expiration date,166272
+vested_awards,num_shares_granted,double precision,30,num shares granted,166272

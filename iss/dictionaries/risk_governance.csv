@@ -1,0 +1,291 @@
+﻿table_name,column_name,data_type,position,description,approx_rows_in_table
+gset,ticker,character varying(5),1,Ticker,13998
+gset,cn6,character varying(8),2,Header 6-digit CUSIP,13998
+gset,cik,character varying(10),3,CIK,13998
+gset,date1,date,4,Beginning Day. Date used to create range of time when data is applicable.,13998
+gset,date2,date,5,Ending Day. Date used to create range of time when data is applicable.,13998
+gset,year,double precision,6,Year,13998
+gset,coname,character varying(48),7,Company name,13998
+gset,blankcheck,smallint,8,Blank Check Preferred,13998
+gset,cboard,smallint,9,Classified Board,13998
+gset,fairprice,smallint,10,Fair Price,13998
+gset,supermajor,smallint,11,Supermajority to Approve Merger,13998
+gset,antigreen,smallint,12,Antigreenmail,13998
+gset,dutiesnf,smallint,13,Director\'\'s Duties--Nonfinancial Impact,13998
+gset,dualclass,smallint,14,Dual Class Common Stock,13998
+gset,uneqvote,smallint,15,Unequal Voting Rights,13998
+gset,ppill,smallint,16,Poison Pill,13998
+gset,advnr,smallint,17,Advance Notice Requirements,13998
+gset,confvote,smallint,18,Confidential Voting,13998
+gset,exsvchg,smallint,19,Change in Control Provisions,13998
+gset,sparachute,smallint,20,Silver Parachute,13998
+gset,pparachute,smallint,21,Pension Parachute,13998
+gset,cumvote,smallint,22,Cumulative Voting,13998
+gset,compplan,smallint,23,Compensation Plan with Change in Control,13998
+gset,cumvotess,smallint,24,Substantial Shareholder,13998
+gset,gparachute,smallint,25,Golden Parachutes,13998
+gset,oo_buscomp,smallint,26,Opt out of BusComb/Freezeout law,13998
+gset,oo_cashout_pa,smallint,27,Opt out of control share cashout law (PA),13998
+gset,oo_csa,smallint,28,Opt out of control share acquisition law(CSA),13998
+gset,oo_duties,smallint,29,Opt out of directors duties law,13998
+gset,oo_fairprice,smallint,30,Opt out of Fair Price law,13998
+gset,oo_rprofits,smallint,31,Opt out of Recapture of Profits law,13998
+gset,oi_bc_ga,smallint,32,Opt in to BusComb/Freezeout law(GA),13998
+gset,oi_fp_ga,smallint,33,Opt in to Fair Price law(GA),13998
+gset,oi_csa,smallint,34,Opt in to control share acquisition law(CSA),13998
+gset,exch,character varying(6),35,Stock Exchange,13998
+gset,dirind,smallint,36,Director Indemnification,13998
+gset,dirindc,smallint,37,Indemnification contracts,13998
+gset,dirliab,smallint,38,Director liability,13998
+gset,execsv,smallint,39,Executive severance agreement,13998
+gset,state,character varying(2),40,State of Incorporation,13998
+gset,de_inc,smallint,41,Delaware Incorporation,13998
+gset,sl_buscomp,smallint,42,Business Combination Law,13998
+gset,sl_fairprice,smallint,43,Fair Price Law,13998
+gset,sl_csa,smallint,44,Control Share Acquisition Law,13998
+gset,sl_rprofits,smallint,45,Recapture of profits law,13998
+gset,sl_cashout,smallint,46,Cash out law,13998
+gset,sl_duties,smallint,47,Director\'\'s Duties Law,13998
+gset,gindex,double precision,48,"Governance Index (Gompers, Ishii, Metrick)",13998
+gset,secretballot,double precision,49,Combined Secret Ballot,13998
+gset,goldenparachute,double precision,50,Combined Golden Parachutes,13998
+gset,severance,double precision,51,Combined Severance,13998
+gset,page,double precision,52,IRRC Page Number,13998
+gset,yr_reinc,double precision,53,Year of reincorporation,13998
+gset,ecumvote,smallint,54,Eliminate Cumulative Voting,13998
+gset,empc,smallint,55,Employee Contracts,13998
+gset,scrtbt,smallint,56,Secret Ballot,13998
+gset,lwcnst,smallint,57,Limit Ability to Act by Written Consent,13998
+gset,lspmt,smallint,58,Limit Ability to Call Special Meeting,13998
+gset,lachtr,smallint,59,Limit Ability to Amend Charter,13998
+gset,labylw,smallint,60,Limit Ability to Amend Bylaws,13998
+rm_gov_2010,blankcheck,character varying(30),1,BlankChkPreferedYN,1481
+rm_gov_2010,carve_out,character varying(20),2,CarveOutContest,1481
+rm_gov_2010,cboard,character varying(20),3,classifiedboard,1481
+rm_gov_2010,coname,character varying(100),4,name,1481
+rm_gov_2010,confvote,character varying(20),5,VoteConfidentialityYN,1481
+rm_gov_2010,cumvote,character varying(30),6,CumulativeVoteYN,1481
+rm_gov_2010,dualclass,character varying(30),7,DualClassCommStkYN,1481
+rm_gov_2010,fairprice,character varying(20),8,FairPriceYN,1481
+rm_gov_2010,gparachute,character varying(20),9,GoldParachuteYN,1481
+rm_gov_2010,labylw,character varying(25),10,LimitAmendBylaw,1481
+rm_gov_2010,lachtr,character varying(20),11,LimitCharterAmend,1481
+rm_gov_2010,legacypps_id,character varying(10),12,,1481
+rm_gov_2010,lspmt,character varying(20),13,LimitedSpecialMeeting,1481
+rm_gov_2010,lwcnst,character varying(30),14,LimitActWrittenConsent,1481
+rm_gov_2010,maj_vote_required,character varying(30),15,MajorityVoteRequired,1481
+rm_gov_2010,maj_vote_requirement,character varying(25),16,majorityVoteRequirement,1481
+rm_gov_2010,major_vote_comm,character varying(1200),17,MajorityVoteComment,1481
+rm_gov_2010,ppill,character varying(20),18,PoisonPillYN,1481
+rm_gov_2010,resign_require,character varying(30),19,ResignationRequirement,1481
+rm_gov_2010,sic,character varying(20),20,,1481
+rm_gov_2010,state,character varying(12),21,,1481
+rm_gov_2010,ticker,character varying(30),22,ticker-trimmed,1481
+rm_gov_2010,tier,character varying(10),23,Tier,1481
+rm_gov_2010,uneqvote,character varying(15),24,unequal_voting_rights,1481
+rm_gov_2010,oo_buscomp,character varying(14),25,,1481
+rm_gov_2010,oo_cashout_pa,character varying(13),26,opt_out_cashout,1481
+rm_gov_2010,oo_csa,character varying(12),27,opt_out_control_share_acquisition,1481
+rm_gov_2010,oo_duties,character varying(12),28,opt_out_dir_duties,1481
+rm_gov_2010,oo_fairprice,character varying(12),29,opt_out_fair_price_prov,1481
+rm_gov_2010,oo_pp,character varying(12),30,,1481
+rm_gov_2010,oo_rprofits,character varying(12),31,opt_out_profit_recapture,1481
+rm_gov_2010,oo_stakeholder,character varying(12),32,,1481
+rm_gov_2010,spindex,character varying(9),33,S&Pindex,1481
+rm_gov_2010,meetingdate,date,34,,1481
+rm_gov_2010,year,double precision,35,,1481
+rm_gov_2010,mtgmonth,double precision,36,,1481
+rm_gov_2010,charter_amend_votepcnt,double precision,37,,1481
+rm_gov_2010,company_id,double precision,38,,1481
+rm_gov_2010,fyend,double precision,39,,1481
+rm_gov_2010,law_amend_votepcnt,double precision,40,,1481
+rm_gov_2010,price,double precision,41,,1481
+rm_gov_2010,rt_id,double precision,42,,1481
+rm_gov_2010,spl_meet_votepcnt,double precision,43,,1481
+rm_gov_2010,supermajor_pcnt,double precision,44,,1481
+rm_gov_2010,written_consent_votepcnt,double precision,45,,1481
+rm_gov_2010,cusip,character varying(12),46,CUSIP,1481
+rm_gov_2011,blankcheck,character varying(30),1,BLANKCHECK,1470
+rm_gov_2011,carve_out,character varying(20),2,CARVE_OUT,1470
+rm_gov_2011,cboard,character varying(20),3,CBOARD,1470
+rm_gov_2011,coname,character varying(100),4,CONAME,1470
+rm_gov_2011,confvote,character varying(20),5,CONFVOTE,1470
+rm_gov_2011,cumvote,character varying(30),6,CUMVOTE,1470
+rm_gov_2011,cusip,character varying(12),7,CUSIP,1470
+rm_gov_2011,dualclass,character varying(30),8,DUALCLASS,1470
+rm_gov_2011,fairprice,character varying(20),9,FAIRPRICE,1470
+rm_gov_2011,gparachute,character varying(20),10,GPARACHUTE,1470
+rm_gov_2011,labylw,character varying(25),11,LABYLW,1470
+rm_gov_2011,lachtr,character varying(20),12,LACHTR,1470
+rm_gov_2011,legacypps_id,character varying(10),13,LEGACYPPS_ID,1470
+rm_gov_2011,lspmt,character varying(20),14,LSPMT,1470
+rm_gov_2011,lwcnst,character varying(30),15,LWCNST,1470
+rm_gov_2011,maj_vote_required,character varying(30),16,MAJ_VOTE_REQUIRED,1470
+rm_gov_2011,maj_vote_requirement,character varying(25),17,MAJ_VOTE_REQUIREMENT,1470
+rm_gov_2011,major_vote_comm,character varying(1200),18,MAJOR_VOTE_COMM,1470
+rm_gov_2011,ppill,character varying(20),19,PPILL,1470
+rm_gov_2011,resign_require,character varying(30),20,RESIGN_REQUIRE,1470
+rm_gov_2011,sic,character varying(20),21,SIC,1470
+rm_gov_2011,ticker,character varying(30),22,TICKER,1470
+rm_gov_2011,tier,character varying(10),23,TIER,1470
+rm_gov_2011,uneqvote,character varying(15),24,UNEQVOTE,1470
+rm_gov_2011,oo_buscomp,character varying(14),25,OO_BUSCOMP,1470
+rm_gov_2011,oo_cashout_pa,character varying(13),26,OO_CASHOUT_PA,1470
+rm_gov_2011,oo_csa,character varying(12),27,OO_CSA,1470
+rm_gov_2011,oo_duties,character varying(12),28,OO_DUTIES,1470
+rm_gov_2011,oo_fairprice,character varying(12),29,OO_FAIRPRICE,1470
+rm_gov_2011,oo_pp,character varying(12),30,OO_PP,1470
+rm_gov_2011,oo_rprofits,character varying(12),31,OO_RPROFITS,1470
+rm_gov_2011,oo_stakeholder,character varying(12),32,OO_STAKEHOLDER,1470
+rm_gov_2011,year,double precision,33,YEAR,1470
+rm_gov_2011,meetingdate,date,34,MEETINGDATE,1470
+rm_gov_2011,company_id,double precision,35,COMPANY_ID,1470
+rm_gov_2011,state,character varying(15),36,STATE,1470
+rm_gov_2011,charter_amend_votepcnt,double precision,37,CHARTER_AMEND_VOTEPCNT,1470
+rm_gov_2011,fyend,double precision,38,FYEND,1470
+rm_gov_2011,law_amend_votepcnt,double precision,39,LAW_AMEND_VOTEPCNT,1470
+rm_gov_2011,mtgmonth,double precision,40,MTGMONTH,1470
+rm_gov_2011,price,double precision,41,PRICE,1470
+rm_gov_2011,spindex,character varying(8),42,SPINDEX,1470
+rm_gov_2011,spl_meet_votepcnt,double precision,43,SPL_MEET_VOTEPCNT,1470
+rm_gov_2011,supermajor_pcnt,double precision,44,SuperMaj MergerVotePcnt,1470
+rm_gov_2011,written_consent_votepcnt,double precision,45,WRITTEN_CONSENT_VOTEPCNT,1470
+rm_gov_2011,rt_id,double precision,46,,1470
+rm_gov_2012,blankcheck,character varying(30),1,BLANKCHECK,1497
+rm_gov_2012,carve_out,character varying(20),2,CARVE_OUT,1497
+rm_gov_2012,cboard,character varying(20),3,CBOARD,1497
+rm_gov_2012,coname,character varying(100),4,CONAME,1497
+rm_gov_2012,confvote,character varying(20),5,CONFVOTE,1497
+rm_gov_2012,cumvote,character varying(30),6,CUMVOTE,1497
+rm_gov_2012,cusip,character varying(12),7,CUSIP,1497
+rm_gov_2012,dualclass,character varying(30),8,DUALCLASS,1497
+rm_gov_2012,fairprice,character varying(20),9,FAIRPRICE,1497
+rm_gov_2012,gparachute,character varying(20),10,GPARACHUTE,1497
+rm_gov_2012,labylw,character varying(25),11,LABYLW,1497
+rm_gov_2012,lachtr,character varying(20),12,LACHTR,1497
+rm_gov_2012,legacypps_id,character varying(10),13,LEGACYPPS_ID,1497
+rm_gov_2012,lspmt,character varying(20),14,LSPMT,1497
+rm_gov_2012,lwcnst,character varying(30),15,LWCNST,1497
+rm_gov_2012,maj_vote_required,character varying(30),16,MAJ_VOTE_REQUIRED,1497
+rm_gov_2012,maj_vote_requirement,character varying(25),17,MAJ_VOTE_REQUIREMENT,1497
+rm_gov_2012,major_vote_comm,character varying(1200),18,MAJOR_VOTE_COMM,1497
+rm_gov_2012,ppill,character varying(20),19,PPILL,1497
+rm_gov_2012,resign_require,character varying(30),20,RESIGN_REQUIRE,1497
+rm_gov_2012,sic,character varying(20),21,SIC,1497
+rm_gov_2012,ticker,character varying(30),22,TICKER,1497
+rm_gov_2012,tier,character varying(10),23,TIER,1497
+rm_gov_2012,uneqvote,character varying(15),24,UNEQVOTE,1497
+rm_gov_2012,oo_buscomp,character varying(14),25,OO_BUSCOMP,1497
+rm_gov_2012,oo_cashout_pa,character varying(13),26,OO_CASHOUT_PA,1497
+rm_gov_2012,oo_csa,character varying(12),27,OO_CSA,1497
+rm_gov_2012,oo_duties,character varying(12),28,OO_DUTIES,1497
+rm_gov_2012,oo_fairprice,character varying(12),29,OO_FAIRPRICE,1497
+rm_gov_2012,oo_pp,character varying(12),30,OO_PP,1497
+rm_gov_2012,oo_rprofits,character varying(12),31,OO_RPROFITS,1497
+rm_gov_2012,oo_stakeholder,character varying(12),32,OO_STAKEHOLDER,1497
+rm_gov_2012,year,double precision,33,YEAR,1497
+rm_gov_2012,meetingdate,date,34,MEETINGDATE,1497
+rm_gov_2012,company_id,double precision,35,COMPANY_ID,1497
+rm_gov_2012,state,character varying(15),36,STATE,1497
+rm_gov_2012,charter_amend_votepcnt,double precision,37,CHARTER_AMEND_VOTEPCNT,1497
+rm_gov_2012,fyend,double precision,38,FYEND,1497
+rm_gov_2012,law_amend_votepcnt,double precision,39,LAW_AMEND_VOTEPCNT,1497
+rm_gov_2012,mtgmonth,double precision,40,MTGMONTH,1497
+rm_gov_2012,price,double precision,41,PRICE,1497
+rm_gov_2012,spindex,character varying(7),42,SPINDEX,1497
+rm_gov_2012,spl_meet_votepcnt,double precision,43,SPL_MEET_VOTEPCNT,1497
+rm_gov_2012,supermajor_pcnt,double precision,44,SUPERMAJOR_PCNT,1497
+rm_gov_2012,written_consent_votepcnt,double precision,45,WRITTEN_CONSENT_VOTEPCNT,1497
+rm_gov_2012,rt_id,double precision,46,,1497
+rm_gov_2013,blankcheck,character varying(30),1,BLANKCHECK,1515
+rm_gov_2013,carve_out,character varying(20),2,CARVE_OUT,1515
+rm_gov_2013,cboard,character varying(20),3,CBOARD,1515
+rm_gov_2013,coname,character varying(100),4,CONAME,1515
+rm_gov_2013,confvote,character varying(20),5,CONFVOTE,1515
+rm_gov_2013,cumvote,character varying(30),6,CUMVOTE,1515
+rm_gov_2013,cusip,character varying(12),7,CUSIP,1515
+rm_gov_2013,dualclass,character varying(30),8,DUALCLASS,1515
+rm_gov_2013,fairprice,character varying(20),9,FAIRPRICE,1515
+rm_gov_2013,gparachute,character varying(20),10,GPARACHUTE,1515
+rm_gov_2013,labylw,character varying(25),11,LABYLW,1515
+rm_gov_2013,lachtr,character varying(20),12,LACHTR,1515
+rm_gov_2013,legacypps_id,character varying(10),13,LEGACYPPS_ID,1515
+rm_gov_2013,lspmt,character varying(20),14,LSPMT,1515
+rm_gov_2013,lwcnst,character varying(30),15,LWCNST,1515
+rm_gov_2013,maj_vote_required,character varying(30),16,MAJ_VOTE_REQUIRED,1515
+rm_gov_2013,maj_vote_requirement,character varying(25),17,MAJ_VOTE_REQUIREMENT,1515
+rm_gov_2013,major_vote_comm,character varying(1200),18,MAJOR_VOTE_COMM,1515
+rm_gov_2013,ppill,character varying(20),19,PPILL,1515
+rm_gov_2013,resign_require,character varying(30),20,RESIGN_REQUIRE,1515
+rm_gov_2013,sic,character varying(20),21,SIC,1515
+rm_gov_2013,ticker,character varying(30),22,TICKER,1515
+rm_gov_2013,tier,character varying(10),23,TIER,1515
+rm_gov_2013,uneqvote,character varying(15),24,UNEQVOTE,1515
+rm_gov_2013,oo_buscomp,character varying(14),25,OO_BUSCOMP,1515
+rm_gov_2013,oo_cashout_pa,character varying(13),26,OO_CASHOUT_PA,1515
+rm_gov_2013,oo_csa,character varying(12),27,OO_CSA,1515
+rm_gov_2013,oo_duties,character varying(12),28,OO_DUTIES,1515
+rm_gov_2013,oo_fairprice,character varying(12),29,OO_FAIRPRICE,1515
+rm_gov_2013,oo_pp,character varying(12),30,OO_PP,1515
+rm_gov_2013,oo_rprofits,character varying(12),31,OO_RPROFITS,1515
+rm_gov_2013,oo_stakeholder,character varying(12),32,OO_STAKEHOLDER,1515
+rm_gov_2013,year,double precision,33,YEAR,1515
+rm_gov_2013,meetingdate,date,34,MEETINGDATE,1515
+rm_gov_2013,company_id,double precision,35,COMPANY_ID,1515
+rm_gov_2013,state,character varying(15),36,STATE,1515
+rm_gov_2013,charter_amend_votepcnt,double precision,37,CHARTER_AMEND_VOTEPCNT,1515
+rm_gov_2013,fyend,double precision,38,FYEND,1515
+rm_gov_2013,law_amend_votepcnt,double precision,39,LAW_AMEND_VOTEPCNT,1515
+rm_gov_2013,mtgmonth,double precision,40,MTGMONTH,1515
+rm_gov_2013,price,double precision,41,PRICE,1515
+rm_gov_2013,spindex,character varying(7),42,SPINDEX,1515
+rm_gov_2013,spl_meet_votepcnt,double precision,43,SPL_MEET_VOTEPCNT,1515
+rm_gov_2013,supermajor_pcnt,double precision,44,SUPERMAJOR_PCNT,1515
+rm_gov_2013,written_consent_votepcnt,double precision,45,WRITTEN_CONSENT_VOTEPCNT,1515
+rm_gov_2013,rt_id,double precision,46,,1515
+rmgovernance,year,smallint,1,Year,28667
+rmgovernance,rt_id,integer,2,IRRC OLD - Company ID,28667
+rmgovernance,legacypps_id,smallint,3,LegacyID - No longer used,28667
+rmgovernance,ticker,character varying(9),4,Company Ticker Symbol,28667
+rmgovernance,cusip,character varying(9),5,CUSIP,28667
+rmgovernance,meetingdate,date,6,Meeting Date,28667
+rmgovernance,company_id,integer,7,ISS (Instituitional Shareholders Services) based Company ID,28667
+rmgovernance,coname,character varying(47),8,Company Name,28667
+rmgovernance,state,character varying(20),9,state,28667
+rmgovernance,blankcheck,character varying(3),10,Blank Check Preferred,28667
+rmgovernance,cboard,character varying(3),11,Classified Board,28667
+rmgovernance,charter_amend_votepcnt,"numeric(7,2)",12,Vote % Required to Amend Charter,28667
+rmgovernance,confvote,character varying(3),13,Confidential Voting,28667
+rmgovernance,cumvote,character varying(3),14,Cumulative Voting,28667
+rmgovernance,dualclass,character varying(3),15,Dual Class Stock,28667
+rmgovernance,fairprice,character varying(3),16,Fair Price,28667
+rmgovernance,fyend,smallint,17,FYEND,28667
+rmgovernance,gparachute,character varying(3),18,Golden Parachutes,28667
+rmgovernance,labylw,character varying(3),19,Limit Ability to Amend ByLaws,28667
+rmgovernance,lachtr,character varying(3),20,Limit Ability to Amend Charter,28667
+rmgovernance,law_amend_votepcnt,"numeric(7,2)",21,Vote % Required to Amend ByLaws,28667
+rmgovernance,lspmt,character varying(3),22,Limit Ability to Call Special Meeting,28667
+rmgovernance,lwcnst,character varying(9),23,Limit Ability to Act by Written Consent,28667
+rmgovernance,mtgmonth,smallint,24,Meeting Month,28667
+rmgovernance,ppill,character varying(3),25,Poison Pill,28667
+rmgovernance,price,"numeric(6,2)",26,FYEND - Stock Price,28667
+rmgovernance,resign_require,character varying(14),27,Resignation Requirement,28667
+rmgovernance,spindex,character varying(7),28,S&Pindex,28667
+rmgovernance,spl_meet_votepcnt,"numeric(7,2)",29,Vote % Required to Call Special Meeting,28667
+rmgovernance,supermajor_pcnt,"numeric(7,2)",30,Supermajority - mergers in percent,28667
+rmgovernance,uneqvote,character varying(15),31,Unequal Voting Rights,28667
+rmgovernance,written_consent_votepcnt,"numeric(7,2)",32,Vote % Required for Written Consent,28667
+rmgovernance,maj_vote_requirement,character varying(7),33,Majority Vote Requirement,28667
+rmgovernance,maj_vote_required,character varying(11),34,Majority Vote Required,28667
+rmgovernance,carve_out,character varying(3),35,Carve Out Contest,28667
+rmgovernance,major_vote_comm,character varying(1145),36,Majority Vote Comment,28667
+rmgovernance,sic,character varying(6),37,SIC,28667
+rmgovernance,tier,character varying(3),38,IRRC TIER - No longer used,28667
+rmgovernance,oo_buscomp,character varying(3),39,Opt out of BusComb/Freezeout law,28667
+rmgovernance,oo_cashout_pa,character varying(3),40,Opt out of control share cashout law (PA),28667
+rmgovernance,oo_csa,character varying(3),41,Opt out of control share acquisition law(CSA),28667
+rmgovernance,oo_duties,character varying(3),42,Opt out of directors duties law,28667
+rmgovernance,oo_fairprice,character varying(3),43,Opt out of Fair Price law,28667
+rmgovernance,oo_pp,character varying(3),44,Opt out of Poison Pill,28667
+rmgovernance,oo_rprofits,character varying(3),45,Opt out of Recapture of Profits law,28667
+rmgovernance,oo_stakeholder,character varying(3),46,Opt out of Stakeholder law,28667
